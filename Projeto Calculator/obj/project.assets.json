@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aluno\\Documents\\GitHub\\Repository_CSharp_Calculator\\Projeto Calculator\\Projeto Calculator.csproj",
-      "projectName": "Projeto Calculator",
-      "projectPath": "C:\\Users\\aluno\\Documents\\GitHub\\Repository_CSharp_Calculator\\Projeto Calculator\\Projeto Calculator.csproj",
+      "projectUniqueName": "C:\\Users\\aluno\\Source\\Repos\\Renxttt\\Repositorio_Calculator\\Projeto_CSharp\\Projeto_CSharp\\Projeto_CSharp.csproj",
+      "projectName": "Projeto_CSharp",
+      "projectPath": "C:\\Users\\aluno\\Source\\Repos\\Renxttt\\Repositorio_Calculator\\Projeto_CSharp\\Projeto_CSharp\\Projeto_CSharp.csproj",
       "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aluno\\Documents\\GitHub\\Repository_CSharp_Calculator\\Projeto Calculator\\obj\\",
+      "outputPath": "C:\\Users\\aluno\\Source\\Repos\\Renxttt\\Repositorio_Calculator\\Projeto_CSharp\\Projeto_CSharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

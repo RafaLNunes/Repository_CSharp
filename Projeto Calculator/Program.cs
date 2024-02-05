@@ -1,4 +1,4 @@
-namespace Projeto_Calculator
+namespace Projeto_CSharp
 {
     internal static class Program
     {
