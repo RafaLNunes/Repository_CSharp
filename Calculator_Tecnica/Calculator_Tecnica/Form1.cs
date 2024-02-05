@@ -5,8 +5,10 @@ namespace Calculator_Tecnica
         public Form1()
         {
             InitializeComponent();
+            
+           
         }
-
+        
         void bhaskara()
         {
             Double valueX = (float)Convert.ToDouble(textBox1.Text);
@@ -18,6 +20,8 @@ namespace Calculator_Tecnica
 
             MessageBox.Show(BKP + "\n" + BKN);
         }
+
+
             
         void focuseds()
         {
@@ -53,12 +57,40 @@ namespace Calculator_Tecnica
                 }
         }
 
-        void WaterMark()
+        void WaterMark(String MyText, TextBox textBox)
         {
+            textBox.Paint += (sender, e) =>
+            {
+                if (string.IsNullOrEmpty(textBox.Text))
+                {
+                    textBox.ForeColor = Color.Gray;
+                    textBox.Text = MyText;
+                }
+            };
+
+            textBox.Enter += (sender, e) =>
+            {
+                if (textBox.Text == MyText)
+                {
+                    textBox.Clear();
+                    textBox.ForeColor = Color.Black;
+                }
+            };
+
+            textBox.Leave += (sender, e) =>
+            {
+                if (string.IsNullOrEmpty(textBox.Text))
+                {
+                    textBox.ForeColor = Color.Gray;
+                    textBox.Text = MyText;
+                }
+            };
 
         }
+    
         private void label1_Click(object sender, EventArgs e)
         {
+
 
         }
 
@@ -66,27 +98,37 @@ namespace Calculator_Tecnica
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            textBox1.ForeColor = Color.Gray;
+            textBox2.ForeColor = Color.Gray;
+            textBox3.ForeColor = Color.Gray;
+            textBox1.Text = "Enter the your first Number...";
+            textBox2.Text = "Enter the your Second Number...";
+            textBox3.Text = "Enter the your third Number...";
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             focuseds();
+            WaterMark("Enter the your first Number...", textBox1);
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             focuseds();
+            WaterMark("Enter the your Second Number...", textBox2);
+
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
             focuseds();
+            WaterMark("Enter the your third Number...", textBox3);
+
         }
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button1_Click(object sender, EventArgs e)

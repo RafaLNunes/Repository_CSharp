@@ -70,7 +70,7 @@
             // 
             textBox1.Location = new Point(129, 31);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(205, 23);
             textBox1.TabIndex = 3;
             textBox1.TextChanged += textBox1_TextChanged;
             // 
@@ -78,7 +78,7 @@
             // 
             textBox2.Location = new Point(129, 73);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
+            textBox2.Size = new Size(205, 23);
             textBox2.TabIndex = 4;
             textBox2.TextChanged += textBox2_TextChanged;
             // 
@@ -86,13 +86,13 @@
             // 
             textBox3.Location = new Point(129, 111);
             textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
+            textBox3.Size = new Size(205, 23);
             textBox3.TabIndex = 5;
             textBox3.TextChanged += textBox3_TextChanged;
             // 
             // textBox4
             // 
-            textBox4.Location = new Point(378, 73);
+            textBox4.Location = new Point(419, 167);
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(100, 23);
             textBox4.TabIndex = 6;
@@ -100,7 +100,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(561, 168);
+            button1.Location = new Point(566, 31);
             button1.Name = "button1";
             button1.Size = new Size(75, 23);
             button1.TabIndex = 7;

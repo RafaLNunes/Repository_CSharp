@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Calculator_Tecnica")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43b04b4256eec71c0d87557f659a0a9da4831906")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+65d8c98c8f8d6aef73bf299fd027998c7150349b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Calculator_Tecnica")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Calculator_Tecnica")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
