@@ -1,0 +1,17 @@
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\bin\Debug\net6.0-windows\Calculator_Tecnica.exe
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\bin\Debug\net6.0-windows\Calculator_Tecnica.deps.json
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\bin\Debug\net6.0-windows\Calculator_Tecnica.runtimeconfig.json
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\bin\Debug\net6.0-windows\Calculator_Tecnica.dll
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\bin\Debug\net6.0-windows\Calculator_Tecnica.pdb
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\Calculator_Tecnica.Form1.resources
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\Calculator_Tecnica.csproj.GenerateResource.cache
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\Calculator_Tecnica.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\Calculator_Tecnica.AssemblyInfoInputs.cache
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\Calculator_Tecnica.AssemblyInfo.cs
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\Calculator_Tecnica.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\Calculator_Tecnica.sourcelink.json
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\Calculator_Tecnica.dll
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\refint\Calculator_Tecnica.dll
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\Calculator_Tecnica.pdb
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\Calculator_Tecnica.genruntimeconfig.cache
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\ref\Calculator_Tecnica.dll
