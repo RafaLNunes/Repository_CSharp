@@ -5,10 +5,10 @@ namespace Calculator_Tecnica
         public Form1()
         {
             InitializeComponent();
-            
-           
+
+
         }
-        
+
         void bhaskara()
         {
             Double valueX = (float)Convert.ToDouble(textBox1.Text);
@@ -22,39 +22,39 @@ namespace Calculator_Tecnica
         }
 
 
-            
+
         void focuseds()
         {
-                if (textBox1.ContainsFocus)
+            if (textBox1.ContainsFocus)
+            {
+                textBox1.KeyDown += (sender, e) =>
                 {
-                    textBox1.KeyDown += (sender, e) =>
+                    if (textBox1.Focused && e.KeyCode == Keys.Enter)
                     {
-                        if (textBox1.Focused && e.KeyCode == Keys.Enter)
-                        {
-                            textBox2.Focus();
-                        }
-                    };
-                }
-                if (textBox2.ContainsFocus)
+                        textBox2.Focus();
+                    }
+                };
+            }
+            if (textBox2.ContainsFocus)
+            {
+                textBox2.KeyDown += (sender, e) =>
                 {
-                    textBox2.KeyDown += (sender, e) =>
+                    if (textBox2.Focused && e.KeyCode == Keys.Enter)
                     {
-                        if (textBox2.Focused && e.KeyCode == Keys.Enter)
-                        {
-                            textBox3.Focus();
-                        }
-                    };
-                }
-                if (textBox3.ContainsFocus)
+                        textBox3.Focus();
+                    }
+                };
+            }
+            if (textBox3.ContainsFocus)
+            {
+                textBox3.KeyDown += (sender, e) =>
                 {
-                    textBox3.KeyDown += (sender, e) =>
+                    if (textBox3.Focused && e.KeyCode == Keys.Enter)
                     {
-                        if (textBox3.Focused && e.KeyCode == Keys.Enter)
-                        {
-                            textBox1.Focus();
-                        }
-                    };
-                }
+                        textBox1.Focus();
+                    }
+                };
+            }
         }
 
         void WaterMark(String MyText, TextBox textBox)
@@ -85,9 +85,8 @@ namespace Calculator_Tecnica
                     textBox.Text = MyText;
                 }
             };
-
         }
-    
+
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -128,12 +127,23 @@ namespace Calculator_Tecnica
 
         private void textBox4_TextChanged(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             bhaskara();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FrmHome home = new FrmHome();
+            home.ShowDialog();
         }
     }
 }

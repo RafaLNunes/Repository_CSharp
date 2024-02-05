@@ -15,3 +15,6 @@ C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\
 C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\Calculator_Tecnica.pdb
 C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\Calculator_Tecnica.genruntimeconfig.cache
 C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\ref\Calculator_Tecnica.dll
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\Calculator_Tecnica.FrmHome.resources
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\Calculator_Tecnica.FrmUser.resources
+C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\obj\Debug\net6.0-windows\Calculator_Tecnica.FrmTextos.resources
