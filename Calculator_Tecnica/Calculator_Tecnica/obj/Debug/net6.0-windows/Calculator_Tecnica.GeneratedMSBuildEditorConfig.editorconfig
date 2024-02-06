@@ -14,6 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Calculator_Tecnica
-build_property.ProjectDir = C:\Users\aluno\Documents\GitHub\Repository_CSharp_Calculator\Calculator_Tecnica\Calculator_Tecnica\
+build_property.ProjectDir = C:\Users\rafin\OneDrive\Documents\GitHub\Repository_CSharp\Calculator_Tecnica\Calculator_Tecnica\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
