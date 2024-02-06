@@ -16,7 +16,7 @@ namespace Calculator_Tecnica
         {
             InitializeComponent();
             MessageBox messageBob = new MessageBox();
-            messageBob.Show("Hello World tto");
+            messageBob.Show("Hello World");
         }
 
 
