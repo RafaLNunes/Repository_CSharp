@@ -15,6 +15,7 @@ namespace Calculator_Tecnica
         public FrmUser()
         {
             InitializeComponent();
+            messageBob.Show("Ola");
         }
 
 
