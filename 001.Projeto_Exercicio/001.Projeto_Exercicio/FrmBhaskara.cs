@@ -23,26 +23,20 @@ namespace _001.Projeto_Exercicio
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(textBox1.Text))
-            {
-                label2.Text = $"{textBox1.Text}x2+";
-            }
+
+            
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(textBox2.Text))
-            {
-                label2.Text += $"{textBox2.Text}x-";
-            }
+
+     
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(textBox3.Text))
-            {
-                label2.Text += $"{textBox3.Text}=0";
-            }
+
+
         }
 
         private void FrmBhaskara_Load(object sender, EventArgs e)
@@ -67,6 +61,12 @@ namespace _001.Projeto_Exercicio
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+            label2.Text = $"{textBox1.Text}x2+";
+
+            label2.Text += $"{textBox2.Text}x-";
+
+            label2.Text += $"{textBox3.Text}=0";
 
         }
     }

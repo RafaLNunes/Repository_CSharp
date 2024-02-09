@@ -28,34 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            menuStrip1 = new MenuStrip();
-            homeToolStripMenuItem = new ToolStripMenuItem();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
             textBox3 = new TextBox();
             label1 = new Label();
             label2 = new Label();
-            label3 = new Label();
             button1 = new Button();
+            menuStrip1 = new MenuStrip();
+            homeToolStripMenuItem = new ToolStripMenuItem();
+            alunoToolStripMenuItem = new ToolStripMenuItem();
+            médiaToolStripMenuItem = new ToolStripMenuItem();
+            calculosToolStripMenuItem = new ToolStripMenuItem();
+            bhaskaraToolStripMenuItem = new ToolStripMenuItem();
+            prestaçãoDeServiçoToolStripMenuItem = new ToolStripMenuItem();
+            comJurosToolStripMenuItem = new ToolStripMenuItem();
+            label3 = new Label();
             menuStrip1.SuspendLayout();
             SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            menuStrip1.BackColor = Color.Transparent;
-            menuStrip1.Items.AddRange(new ToolStripItem[] { homeToolStripMenuItem });
-            menuStrip1.Location = new Point(0, 0);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1432, 24);
-            menuStrip1.TabIndex = 0;
-            menuStrip1.Text = "menuStrip1";
-            // 
-            // homeToolStripMenuItem
-            // 
-            homeToolStripMenuItem.ForeColor = Color.White;
-            homeToolStripMenuItem.Name = "homeToolStripMenuItem";
-            homeToolStripMenuItem.Size = new Size(52, 20);
-            homeToolStripMenuItem.Text = "Home";
             // 
             // textBox1
             // 
@@ -87,7 +76,7 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Gadugi", 24F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(525, 541);
+            label1.Location = new Point(656, 547);
             label1.Name = "label1";
             label1.Size = new Size(107, 38);
             label1.TabIndex = 4;
@@ -100,25 +89,12 @@
             label2.BackColor = Color.Transparent;
             label2.Font = new Font("Gadugi", 42F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.White;
-            label2.Location = new Point(628, 446);
+            label2.Location = new Point(526, 444);
             label2.Name = "label2";
             label2.Size = new Size(188, 68);
             label2.TabIndex = 5;
             label2.Text = "label2";
             label2.Click += label2_Click;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.BackColor = Color.Transparent;
-            label3.Font = new Font("Gadugi", 24F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.ForeColor = Color.White;
-            label3.Location = new Point(525, 590);
-            label3.Name = "label3";
-            label3.Size = new Size(107, 38);
-            label3.TabIndex = 6;
-            label3.Text = "label3";
-            label3.Click += label3_Click;
             // 
             // button1
             // 
@@ -133,12 +109,87 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
+            // menuStrip1
+            // 
+            menuStrip1.BackColor = Color.Transparent;
+            menuStrip1.Items.AddRange(new ToolStripItem[] { homeToolStripMenuItem, alunoToolStripMenuItem, calculosToolStripMenuItem, prestaçãoDeServiçoToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(1432, 24);
+            menuStrip1.TabIndex = 8;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // homeToolStripMenuItem
+            // 
+            homeToolStripMenuItem.ForeColor = Color.White;
+            homeToolStripMenuItem.Name = "homeToolStripMenuItem";
+            homeToolStripMenuItem.Size = new Size(52, 20);
+            homeToolStripMenuItem.Text = "Home";
+            // 
+            // alunoToolStripMenuItem
+            // 
+            alunoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { médiaToolStripMenuItem });
+            alunoToolStripMenuItem.ForeColor = Color.White;
+            alunoToolStripMenuItem.Name = "alunoToolStripMenuItem";
+            alunoToolStripMenuItem.Size = new Size(51, 20);
+            alunoToolStripMenuItem.Text = "Aluno";
+            // 
+            // médiaToolStripMenuItem
+            // 
+            médiaToolStripMenuItem.Name = "médiaToolStripMenuItem";
+            médiaToolStripMenuItem.Size = new Size(107, 22);
+            médiaToolStripMenuItem.Text = "Média";
+            // 
+            // calculosToolStripMenuItem
+            // 
+            calculosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { bhaskaraToolStripMenuItem });
+            calculosToolStripMenuItem.ForeColor = Color.White;
+            calculosToolStripMenuItem.Name = "calculosToolStripMenuItem";
+            calculosToolStripMenuItem.Size = new Size(64, 20);
+            calculosToolStripMenuItem.Text = "Calculos";
+            // 
+            // bhaskaraToolStripMenuItem
+            // 
+            bhaskaraToolStripMenuItem.ForeColor = Color.Black;
+            bhaskaraToolStripMenuItem.Name = "bhaskaraToolStripMenuItem";
+            bhaskaraToolStripMenuItem.Size = new Size(121, 22);
+            bhaskaraToolStripMenuItem.Text = "Bhaskara";
+            // 
+            // prestaçãoDeServiçoToolStripMenuItem
+            // 
+            prestaçãoDeServiçoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { comJurosToolStripMenuItem });
+            prestaçãoDeServiçoToolStripMenuItem.ForeColor = Color.White;
+            prestaçãoDeServiçoToolStripMenuItem.Name = "prestaçãoDeServiçoToolStripMenuItem";
+            prestaçãoDeServiçoToolStripMenuItem.Size = new Size(127, 20);
+            prestaçãoDeServiçoToolStripMenuItem.Text = "Prestação de Serviço";
+            // 
+            // comJurosToolStripMenuItem
+            // 
+            comJurosToolStripMenuItem.ForeColor = Color.Black;
+            comJurosToolStripMenuItem.Name = "comJurosToolStripMenuItem";
+            comJurosToolStripMenuItem.Size = new Size(130, 22);
+            comJurosToolStripMenuItem.Text = "Com Juros";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Gadugi", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.ForeColor = Color.White;
+            label3.Location = new Point(656, 596);
+            label3.Name = "label3";
+            label3.Size = new Size(107, 38);
+            label3.TabIndex = 6;
+            label3.Text = "label3";
+            label3.Click += label3_Click;
+            // 
             // FrmBhaskara
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Seja_Bem_Vindo_e_recebimento_de_notas;
             ClientSize = new Size(1432, 753);
+            Controls.Add(menuStrip1);
             Controls.Add(button1);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -146,8 +197,6 @@
             Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
-            Controls.Add(menuStrip1);
-            MainMenuStrip = menuStrip1;
             Name = "FrmBhaskara";
             Text = "FrmBhaskara";
             Load += FrmBhaskara_Load;
@@ -158,15 +207,20 @@
         }
 
         #endregion
-
-        private MenuStrip menuStrip1;
-        private ToolStripMenuItem homeToolStripMenuItem;
         private TextBox textBox1;
         private TextBox textBox2;
         private TextBox textBox3;
         private Label label1;
         private Label label2;
-        private Label label3;
         private Button button1;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem homeToolStripMenuItem;
+        private ToolStripMenuItem alunoToolStripMenuItem;
+        private ToolStripMenuItem médiaToolStripMenuItem;
+        private ToolStripMenuItem calculosToolStripMenuItem;
+        private ToolStripMenuItem bhaskaraToolStripMenuItem;
+        private ToolStripMenuItem prestaçãoDeServiçoToolStripMenuItem;
+        private ToolStripMenuItem comJurosToolStripMenuItem;
+        private Label label3;
     }
 }

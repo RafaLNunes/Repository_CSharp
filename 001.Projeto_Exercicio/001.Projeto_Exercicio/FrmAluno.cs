@@ -151,29 +151,113 @@ namespace _001.Projeto_Exercicio
             {
                 if (String.IsNullOrEmpty(textBox1.Text))
                 {
+                    prese = (float)Convert.ToDouble(textBox7.Text);
+
+                    prese /= 200;
+                    prese *= 100;
+                    if (prese < 75)
+                    {
+                        pictureBox2.Visible = true;
+                        pictureBox1.Visible = false;
+                    }
+                    else
+                    {
+                        pictureBox1.Visible = true;
+                        pictureBox2.Visible = false;
+                    }
                     textBox1.Focus();
                 }
                 else if (String.IsNullOrEmpty(textBox2.Text))
                 {
+                    prese = (float)Convert.ToDouble(textBox7.Text);
+
+                    prese /= 200;
+                    prese *= 100;
+                    if (prese < 75)
+                    {
+                        pictureBox2.Visible = true;
+                        pictureBox1.Visible = false;
+                    }
+                    else
+                    {
+                        pictureBox1.Visible = true;
+                        pictureBox2.Visible = false;
+                    }
                     textBox2.Focus();
                 }
                 else if (String.IsNullOrEmpty(textBox3.Text))
                 {
+                    prese = (float)Convert.ToDouble(textBox7.Text);
+
+                    prese /= 200;
+                    prese *= 100;
+                    if (prese < 75)
+                    {
+                        pictureBox2.Visible = true;
+                        pictureBox1.Visible = false;
+                    }
+                    else
+                    {
+                        pictureBox1.Visible = true;
+                        pictureBox2.Visible = false;
+                    }
                     textBox3.Focus();
                 }
                 else if (String.IsNullOrEmpty(textBox4.Text))
                 {
+                    prese = (float)Convert.ToDouble(textBox7.Text);
+
+                    prese /= 200;
+                    prese *= 100;
+                    if (prese < 75)
+                    {
+                        pictureBox2.Visible = true;
+                        pictureBox1.Visible = false;
+                    }
+                    else
+                    {
+                        pictureBox1.Visible = true;
+                        pictureBox2.Visible = false;
+                    }
                     textBox4.Focus();
                 }
                 else if (String.IsNullOrEmpty(textBox5.Text))
                 {
+                    prese = (float)Convert.ToDouble(textBox7.Text);
+
+                    prese /= 200;
+                    prese *= 100;
+                    if (prese < 75)
+                    {
+                        pictureBox2.Visible = true;
+                        pictureBox1.Visible = false;
+                    }
+                    else
+                    {
+                        pictureBox1.Visible = true;
+                        pictureBox2.Visible = false;
+                    }
                     textBox5.Focus();
                 }
                 else if (String.IsNullOrEmpty(textBox6.Text))
                 {
+                    prese = (float)Convert.ToDouble(textBox7.Text);
+
+                    prese /= 200;
+                    prese *= 100;
+                    if (prese < 75)
+                    {
+                        pictureBox2.Visible = true;
+                        pictureBox1.Visible = false;
+                    }
+                    else
+                    {
+                        pictureBox1.Visible = true;
+                        pictureBox2.Visible = false;
+                    }
                     textBox6.Focus();
                 }
-                else if (String.IsNullOrEmpty(textBox7.Text)) { textBox6.Focus(); }
+                else if (String.IsNullOrEmpty(textBox7.Text)) { textBox7.Focus(); }
 
             }
         }
