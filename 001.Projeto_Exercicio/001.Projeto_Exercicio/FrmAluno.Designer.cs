@@ -29,12 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAluno));
-            menuStrip1 = new MenuStrip();
-            aToolStripMenuItem = new ToolStripMenuItem();
-            calculosToolStripMenuItem = new ToolStripMenuItem();
-            bhaskaraToolStripMenuItem = new ToolStripMenuItem();
-            prestaçãoDeServiçoToolStripMenuItem = new ToolStripMenuItem();
-            comJurosToolStripMenuItem = new ToolStripMenuItem();
             textBox1 = new TextBox();
             button1 = new Button();
             textBox2 = new TextBox();
@@ -47,60 +41,18 @@
             label2 = new Label();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
-            menuStrip1.SuspendLayout();
+            menuStrip1 = new MenuStrip();
+            homeToolStripMenuItem = new ToolStripMenuItem();
+            alunoToolStripMenuItem = new ToolStripMenuItem();
+            médiaToolStripMenuItem = new ToolStripMenuItem();
+            calculosToolStripMenuItem = new ToolStripMenuItem();
+            bhaskaraToolStripMenuItem = new ToolStripMenuItem();
+            prestaçãoDeServiçoToolStripMenuItem = new ToolStripMenuItem();
+            comJurosToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            menuStrip1.SuspendLayout();
             SuspendLayout();
-            // 
-            // menuStrip1
-            // 
-            menuStrip1.BackColor = Color.Transparent;
-            menuStrip1.Items.AddRange(new ToolStripItem[] { aToolStripMenuItem, calculosToolStripMenuItem, prestaçãoDeServiçoToolStripMenuItem });
-            menuStrip1.Location = new Point(0, 0);
-            menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(1432, 24);
-            menuStrip1.TabIndex = 0;
-            menuStrip1.Text = "menuStrip1";
-            // 
-            // aToolStripMenuItem
-            // 
-            aToolStripMenuItem.ForeColor = Color.White;
-            aToolStripMenuItem.Name = "aToolStripMenuItem";
-            aToolStripMenuItem.Size = new Size(52, 20);
-            aToolStripMenuItem.Text = "Home";
-            aToolStripMenuItem.Click += aToolStripMenuItem_Click;
-            // 
-            // calculosToolStripMenuItem
-            // 
-            calculosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { bhaskaraToolStripMenuItem });
-            calculosToolStripMenuItem.ForeColor = Color.White;
-            calculosToolStripMenuItem.Name = "calculosToolStripMenuItem";
-            calculosToolStripMenuItem.Size = new Size(64, 20);
-            calculosToolStripMenuItem.Text = "Calculos";
-            // 
-            // bhaskaraToolStripMenuItem
-            // 
-            bhaskaraToolStripMenuItem.ForeColor = Color.White;
-            bhaskaraToolStripMenuItem.Name = "bhaskaraToolStripMenuItem";
-            bhaskaraToolStripMenuItem.Size = new Size(121, 22);
-            bhaskaraToolStripMenuItem.Text = "Bhaskara";
-            bhaskaraToolStripMenuItem.Click += bhaskaraToolStripMenuItem_Click;
-            // 
-            // prestaçãoDeServiçoToolStripMenuItem
-            // 
-            prestaçãoDeServiçoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { comJurosToolStripMenuItem });
-            prestaçãoDeServiçoToolStripMenuItem.ForeColor = Color.White;
-            prestaçãoDeServiçoToolStripMenuItem.Name = "prestaçãoDeServiçoToolStripMenuItem";
-            prestaçãoDeServiçoToolStripMenuItem.Size = new Size(127, 20);
-            prestaçãoDeServiçoToolStripMenuItem.Text = "Prestação de Serviço";
-            // 
-            // comJurosToolStripMenuItem
-            // 
-            comJurosToolStripMenuItem.ForeColor = Color.White;
-            comJurosToolStripMenuItem.Name = "comJurosToolStripMenuItem";
-            comJurosToolStripMenuItem.Size = new Size(180, 22);
-            comJurosToolStripMenuItem.Text = "Com Juros";
-            comJurosToolStripMenuItem.Click += comJurosToolStripMenuItem_Click;
             // 
             // textBox1
             // 
@@ -222,12 +174,74 @@
             pictureBox2.TabStop = false;
             pictureBox2.Click += pictureBox2_Click;
             // 
+            // menuStrip1
+            // 
+            menuStrip1.BackColor = Color.Transparent;
+            menuStrip1.Items.AddRange(new ToolStripItem[] { homeToolStripMenuItem, alunoToolStripMenuItem, calculosToolStripMenuItem, prestaçãoDeServiçoToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(1432, 24);
+            menuStrip1.TabIndex = 13;
+            menuStrip1.Text = "menuStrip1";
+            // 
+            // homeToolStripMenuItem
+            // 
+            homeToolStripMenuItem.ForeColor = Color.White;
+            homeToolStripMenuItem.Name = "homeToolStripMenuItem";
+            homeToolStripMenuItem.Size = new Size(52, 20);
+            homeToolStripMenuItem.Text = "Home";
+            // 
+            // alunoToolStripMenuItem
+            // 
+            alunoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { médiaToolStripMenuItem });
+            alunoToolStripMenuItem.ForeColor = Color.White;
+            alunoToolStripMenuItem.Name = "alunoToolStripMenuItem";
+            alunoToolStripMenuItem.Size = new Size(51, 20);
+            alunoToolStripMenuItem.Text = "Aluno";
+            // 
+            // médiaToolStripMenuItem
+            // 
+            médiaToolStripMenuItem.Name = "médiaToolStripMenuItem";
+            médiaToolStripMenuItem.Size = new Size(107, 22);
+            médiaToolStripMenuItem.Text = "Média";
+            // 
+            // calculosToolStripMenuItem
+            // 
+            calculosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { bhaskaraToolStripMenuItem });
+            calculosToolStripMenuItem.ForeColor = Color.White;
+            calculosToolStripMenuItem.Name = "calculosToolStripMenuItem";
+            calculosToolStripMenuItem.Size = new Size(64, 20);
+            calculosToolStripMenuItem.Text = "Calculos";
+            // 
+            // bhaskaraToolStripMenuItem
+            // 
+            bhaskaraToolStripMenuItem.ForeColor = Color.Black;
+            bhaskaraToolStripMenuItem.Name = "bhaskaraToolStripMenuItem";
+            bhaskaraToolStripMenuItem.Size = new Size(121, 22);
+            bhaskaraToolStripMenuItem.Text = "Bhaskara";
+            // 
+            // prestaçãoDeServiçoToolStripMenuItem
+            // 
+            prestaçãoDeServiçoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { comJurosToolStripMenuItem });
+            prestaçãoDeServiçoToolStripMenuItem.ForeColor = Color.White;
+            prestaçãoDeServiçoToolStripMenuItem.Name = "prestaçãoDeServiçoToolStripMenuItem";
+            prestaçãoDeServiçoToolStripMenuItem.Size = new Size(127, 20);
+            prestaçãoDeServiçoToolStripMenuItem.Text = "Prestação de Serviço";
+            // 
+            // comJurosToolStripMenuItem
+            // 
+            comJurosToolStripMenuItem.ForeColor = Color.Black;
+            comJurosToolStripMenuItem.Name = "comJurosToolStripMenuItem";
+            comJurosToolStripMenuItem.Size = new Size(130, 22);
+            comJurosToolStripMenuItem.Text = "Com Juros";
+            // 
             // FrmAluno
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Seja_Bem_Vindo_e_recebimento_de_notas__1_;
             ClientSize = new Size(1432, 755);
+            Controls.Add(menuStrip1);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(label2);
@@ -240,24 +254,19 @@
             Controls.Add(textBox2);
             Controls.Add(button1);
             Controls.Add(textBox1);
-            Controls.Add(menuStrip1);
-            MainMenuStrip = menuStrip1;
             Name = "FrmAluno";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Student average";
             Load += FrmAluno_Load;
-            menuStrip1.ResumeLayout(false);
-            menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
-
-        private MenuStrip menuStrip1;
-        private ToolStripMenuItem aToolStripMenuItem;
         private TextBox textBox1;
         private Button button1;
         private TextBox textBox2;
@@ -270,6 +279,10 @@
         private Label label2;
         private PictureBox pictureBox1;
         private PictureBox pictureBox2;
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem homeToolStripMenuItem;
+        private ToolStripMenuItem alunoToolStripMenuItem;
+        private ToolStripMenuItem médiaToolStripMenuItem;
         private ToolStripMenuItem calculosToolStripMenuItem;
         private ToolStripMenuItem bhaskaraToolStripMenuItem;
         private ToolStripMenuItem prestaçãoDeServiçoToolStripMenuItem;
