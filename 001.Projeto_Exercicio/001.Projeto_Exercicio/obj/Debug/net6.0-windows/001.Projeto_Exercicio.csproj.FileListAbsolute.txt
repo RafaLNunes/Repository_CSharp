@@ -34,3 +34,5 @@ C:\Users\aluno\Documents\GitHub\Repository_CSharp\001.Projeto_Exercicio\001.Proj
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\001.Projeto_Exercicio\001.Projeto_Exercicio\obj\Debug\net6.0-windows\001.Projeto_Exercicio.genruntimeconfig.cache
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\001.Projeto_Exercicio\001.Projeto_Exercicio\obj\Debug\net6.0-windows\ref\001.Projeto_Exercicio.dll
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\001.Projeto_Exercicio\001.Projeto_Exercicio\obj\Debug\net6.0-windows\_001.Projeto_Exercicio.FrmAluno.resources
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\001.Projeto_Exercicio\001.Projeto_Exercicio\obj\Debug\net6.0-windows\_001.Projeto_Exercicio.FrmBhaskara.resources
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\001.Projeto_Exercicio\001.Projeto_Exercicio\obj\Debug\net6.0-windows\_001.Projeto_Exercicio.FrmPrestacao.resources
