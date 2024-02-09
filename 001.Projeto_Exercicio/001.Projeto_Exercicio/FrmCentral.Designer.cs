@@ -56,6 +56,7 @@
             homeToolStripMenuItem.Name = "homeToolStripMenuItem";
             homeToolStripMenuItem.Size = new Size(52, 20);
             homeToolStripMenuItem.Text = "Home";
+            homeToolStripMenuItem.Click += homeToolStripMenuItem_Click;
             // 
             // alunoToolStripMenuItem
             // 
@@ -69,7 +70,7 @@
             // médiaToolStripMenuItem
             // 
             médiaToolStripMenuItem.Name = "médiaToolStripMenuItem";
-            médiaToolStripMenuItem.Size = new Size(180, 22);
+            médiaToolStripMenuItem.Size = new Size(107, 22);
             médiaToolStripMenuItem.Text = "Média";
             médiaToolStripMenuItem.Click += médiaToolStripMenuItem_Click;
             // 
@@ -85,7 +86,7 @@
             // 
             bhaskaraToolStripMenuItem.ForeColor = Color.Black;
             bhaskaraToolStripMenuItem.Name = "bhaskaraToolStripMenuItem";
-            bhaskaraToolStripMenuItem.Size = new Size(180, 22);
+            bhaskaraToolStripMenuItem.Size = new Size(121, 22);
             bhaskaraToolStripMenuItem.Text = "Bhaskara";
             bhaskaraToolStripMenuItem.Click += bhaskaraToolStripMenuItem_Click;
             // 

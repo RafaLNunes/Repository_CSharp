@@ -56,5 +56,11 @@ namespace _001.Projeto_Exercicio
             FrmPrestacao prestacao = new FrmPrestacao();
             prestacao.ShowDialog();
         }
+
+        private void homeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCentral home = new FrmCentral();
+            home.ShowDialog();
+        }
     }
 }

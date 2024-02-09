@@ -282,22 +282,28 @@ namespace _001.Projeto_Exercicio
 
         }
 
+        private void homeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCentral home = new FrmCentral();
+            home.ShowDialog();
+        }
+
+        private void médiaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmAluno aluno = new FrmAluno();
+            aluno.ShowDialog();
+        }
+
         private void bhaskaraToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmBhaskara bhaskara = new FrmBhaskara();
-            bhaskara.ShowDialog();
+            FrmBhaskara bhk = new FrmBhaskara();
+            bhk.ShowDialog();
         }
 
         private void comJurosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmPrestacao prestacao = new FrmPrestacao();
             prestacao.ShowDialog();
-        }
-
-        private void aToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            FrmCentral home = new FrmCentral();
-            home.ShowDialog();
         }
     }
 }
