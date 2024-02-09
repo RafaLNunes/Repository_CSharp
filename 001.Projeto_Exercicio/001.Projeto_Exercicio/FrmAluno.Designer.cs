@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAluno));
             textBox1 = new TextBox();
             button1 = new Button();
             textBox2 = new TextBox();
@@ -40,7 +39,6 @@
             label1 = new Label();
             label2 = new Label();
             pictureBox1 = new PictureBox();
-            pictureBox2 = new PictureBox();
             menuStrip1 = new MenuStrip();
             homeToolStripMenuItem = new ToolStripMenuItem();
             alunoToolStripMenuItem = new ToolStripMenuItem();
@@ -50,7 +48,6 @@
             prestaçãoDeServiçoToolStripMenuItem = new ToolStripMenuItem();
             comJurosToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -66,13 +63,13 @@
             // button1
             // 
             button1.BackColor = Color.Transparent;
-            button1.FlatStyle = FlatStyle.Flat;
+            button1.FlatStyle = FlatStyle.Popup;
             button1.ForeColor = Color.Black;
             button1.Location = new Point(577, 666);
             button1.Name = "button1";
             button1.Size = new Size(298, 54);
             button1.TabIndex = 2;
-            button1.Text = "button1";
+            button1.Text = "Enter";
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
@@ -163,17 +160,6 @@
             pictureBox1.TabStop = false;
             pictureBox1.Click += pictureBox1_Click;
             // 
-            // pictureBox2
-            // 
-            pictureBox2.BackColor = Color.Transparent;
-            pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
-            pictureBox2.Location = new Point(524, 593);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(39, 41);
-            pictureBox2.TabIndex = 12;
-            pictureBox2.TabStop = false;
-            pictureBox2.Click += pictureBox2_Click;
-            // 
             // menuStrip1
             // 
             menuStrip1.BackColor = Color.Transparent;
@@ -203,7 +189,7 @@
             // médiaToolStripMenuItem
             // 
             médiaToolStripMenuItem.Name = "médiaToolStripMenuItem";
-            médiaToolStripMenuItem.Size = new Size(180, 22);
+            médiaToolStripMenuItem.Size = new Size(107, 22);
             médiaToolStripMenuItem.Text = "Média";
             médiaToolStripMenuItem.Click += médiaToolStripMenuItem_Click;
             // 
@@ -219,7 +205,7 @@
             // 
             bhaskaraToolStripMenuItem.ForeColor = Color.Black;
             bhaskaraToolStripMenuItem.Name = "bhaskaraToolStripMenuItem";
-            bhaskaraToolStripMenuItem.Size = new Size(180, 22);
+            bhaskaraToolStripMenuItem.Size = new Size(121, 22);
             bhaskaraToolStripMenuItem.Text = "Bhaskara";
             bhaskaraToolStripMenuItem.Click += bhaskaraToolStripMenuItem_Click;
             // 
@@ -235,7 +221,7 @@
             // 
             comJurosToolStripMenuItem.ForeColor = Color.Black;
             comJurosToolStripMenuItem.Name = "comJurosToolStripMenuItem";
-            comJurosToolStripMenuItem.Size = new Size(180, 22);
+            comJurosToolStripMenuItem.Size = new Size(130, 22);
             comJurosToolStripMenuItem.Text = "Com Juros";
             comJurosToolStripMenuItem.Click += comJurosToolStripMenuItem_Click;
             // 
@@ -246,7 +232,6 @@
             BackgroundImage = Properties.Resources.Seja_Bem_Vindo_e_recebimento_de_notas__1_;
             ClientSize = new Size(1432, 755);
             Controls.Add(menuStrip1);
-            Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -263,7 +248,6 @@
             Text = "Student average";
             Load += FrmAluno_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -282,7 +266,6 @@
         private Label label1;
         private Label label2;
         private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
         private MenuStrip menuStrip1;
         private ToolStripMenuItem homeToolStripMenuItem;
         private ToolStripMenuItem alunoToolStripMenuItem;

@@ -16,9 +16,8 @@ namespace _001.Projeto_Exercicio
         public FrmAluno()
         {
             InitializeComponent();
+            pictureBox1.Visible = true;
 
-            pictureBox1.Visible = false;
-            pictureBox2.Visible = false;
 
             textBox1.ForeColor = Color.Gray;
             textBox2.ForeColor = Color.Gray;
@@ -39,9 +38,9 @@ namespace _001.Projeto_Exercicio
         }
         String name;
 
-        float[] grade = new float[4];
-        float media;
-        float prese;
+        Double[] grade = new Double[4];
+        Double media;
+        Double prese;
         void marck(String MyText, TextBox textBox)
         {
             textBox.Paint += (sender, e) =>
@@ -121,10 +120,10 @@ namespace _001.Projeto_Exercicio
         {
             if (String.IsNullOrEmpty(textBox1.Text) || String.IsNullOrEmpty(textBox2.Text) || String.IsNullOrEmpty(textBox3.Text) || String.IsNullOrEmpty(textBox4.Text) || String.IsNullOrEmpty(textBox5.Text) || String.IsNullOrEmpty(textBox6.Text) || String.IsNullOrEmpty(textBox7.Text))
             {
-                grade[0] = (float)Convert.ToDouble(textBox3.Text);
-                grade[1] = (float)Convert.ToDouble(textBox4.Text);
-                grade[2] = (float)Convert.ToDouble(textBox5.Text);
-                grade[3] = (float)Convert.ToDouble(textBox6.Text);
+                grade[0] = Convert.ToDouble(textBox3.Text);
+                grade[1] = Convert.ToDouble(textBox4.Text);
+                grade[2] = Convert.ToDouble(textBox5.Text);
+                grade[3] = Convert.ToDouble(textBox6.Text);
                 for (int i = 0; i < 4; i++)
                 {
                     media += grade[i];
@@ -132,134 +131,13 @@ namespace _001.Projeto_Exercicio
                 media = media / 4;
 
 
-                prese = (float)Convert.ToDouble(textBox7.Text);
+                prese = Convert.ToDouble(textBox7.Text);
 
                 prese /= 200;
                 prese *= 100;
-                if (prese < 75)
-                {
-                    pictureBox2.Visible = true;
-                    pictureBox1.Visible = false;
-                }
-                else
-                {
-                    pictureBox1.Visible = true;
-                    pictureBox2.Visible = false;
-                }
-            }
-            else
-            {
-                if (String.IsNullOrEmpty(textBox1.Text))
-                {
-                    prese = (float)Convert.ToDouble(textBox7.Text);
-
-                    prese /= 200;
-                    prese *= 100;
-                    if (prese < 75)
-                    {
-                        pictureBox2.Visible = true;
-                        pictureBox1.Visible = false;
-                    }
-                    else
-                    {
-                        pictureBox1.Visible = true;
-                        pictureBox2.Visible = false;
-                    }
-                    textBox1.Focus();
-                }
-                else if (String.IsNullOrEmpty(textBox2.Text))
-                {
-                    prese = (float)Convert.ToDouble(textBox7.Text);
-
-                    prese /= 200;
-                    prese *= 100;
-                    if (prese < 75)
-                    {
-                        pictureBox2.Visible = true;
-                        pictureBox1.Visible = false;
-                    }
-                    else
-                    {
-                        pictureBox1.Visible = true;
-                        pictureBox2.Visible = false;
-                    }
-                    textBox2.Focus();
-                }
-                else if (String.IsNullOrEmpty(textBox3.Text))
-                {
-                    prese = (float)Convert.ToDouble(textBox7.Text);
-
-                    prese /= 200;
-                    prese *= 100;
-                    if (prese < 75)
-                    {
-                        pictureBox2.Visible = true;
-                        pictureBox1.Visible = false;
-                    }
-                    else
-                    {
-                        pictureBox1.Visible = true;
-                        pictureBox2.Visible = false;
-                    }
-                    textBox3.Focus();
-                }
-                else if (String.IsNullOrEmpty(textBox4.Text))
-                {
-                    prese = (float)Convert.ToDouble(textBox7.Text);
-
-                    prese /= 200;
-                    prese *= 100;
-                    if (prese < 75)
-                    {
-                        pictureBox2.Visible = true;
-                        pictureBox1.Visible = false;
-                    }
-                    else
-                    {
-                        pictureBox1.Visible = true;
-                        pictureBox2.Visible = false;
-                    }
-                    textBox4.Focus();
-                }
-                else if (String.IsNullOrEmpty(textBox5.Text))
-                {
-                    prese = (float)Convert.ToDouble(textBox7.Text);
-
-                    prese /= 200;
-                    prese *= 100;
-                    if (prese < 75)
-                    {
-                        pictureBox2.Visible = true;
-                        pictureBox1.Visible = false;
-                    }
-                    else
-                    {
-                        pictureBox1.Visible = true;
-                        pictureBox2.Visible = false;
-                    }
-                    textBox5.Focus();
-                }
-                else if (String.IsNullOrEmpty(textBox6.Text))
-                {
-                    prese = (float)Convert.ToDouble(textBox7.Text);
-
-                    prese /= 200;
-                    prese *= 100;
-                    if (prese < 75)
-                    {
-                        pictureBox2.Visible = true;
-                        pictureBox1.Visible = false;
-                    }
-                    else
-                    {
-                        pictureBox1.Visible = true;
-                        pictureBox2.Visible = false;
-                    }
-                    textBox6.Focus();
-                }
-                else if (String.IsNullOrEmpty(textBox7.Text)) { textBox7.Focus(); }
 
             }
+     
         }
 
         private void FrmAluno_Load(object sender, EventArgs e)
