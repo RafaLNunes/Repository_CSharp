@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\Documents\\GitHub\\Repository_CSharp_Calculator\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj": {}
+    "C:\\Users\\aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\Documents\\GitHub\\Repository_CSharp_Calculator\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj": {
+    "C:\\Users\\aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\Documents\\GitHub\\Repository_CSharp_Calculator\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj",
+        "projectUniqueName": "C:\\Users\\aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj",
         "projectName": "001.Projeto_Exercicio",
-        "projectPath": "C:\\Users\\aluno\\Documents\\GitHub\\Repository_CSharp_Calculator\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj",
+        "projectPath": "C:\\Users\\aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj",
         "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\Documents\\GitHub\\Repository_CSharp_Calculator\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\obj\\",
+        "outputPath": "C:\\Users\\aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
