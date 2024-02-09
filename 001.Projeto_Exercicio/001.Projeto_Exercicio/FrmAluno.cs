@@ -38,7 +38,10 @@ namespace _001.Projeto_Exercicio
         }
         String name;
 
-        Double[] grade = new Double[4];
+        Double grade1;
+        Double grade2;
+        Double grade3;
+        Double grade4;
         Double media;
         Double prese;
         void marck(String MyText, TextBox textBox)
@@ -118,26 +121,38 @@ namespace _001.Projeto_Exercicio
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (String.IsNullOrEmpty(textBox1.Text) || String.IsNullOrEmpty(textBox2.Text) || String.IsNullOrEmpty(textBox3.Text) || String.IsNullOrEmpty(textBox4.Text) || String.IsNullOrEmpty(textBox5.Text) || String.IsNullOrEmpty(textBox6.Text) || String.IsNullOrEmpty(textBox7.Text))
+
+            grade1 = Convert.ToDouble(textBox3.Text);
+            grade2 = Convert.ToDouble(textBox4.Text);
+            grade3 = Convert.ToDouble(textBox5.Text);
+            grade4 = Convert.ToDouble(textBox6.Text);
+            media = grade1 + grade2 + grade3 + grade4;
+            media = media / 4;
+
+
+            prese = Convert.ToDouble(textBox7.Text);
+
+            prese /= 200;
+            prese *= 100;
+
+
+            label4.Text = media + "\nAnd Your presence:\n" + prese;
+
+            if (prese < 140 || media < 75) {
+                label4.Text += "\nyou are recovering";
+            }if(prese < 140)
             {
-                grade[0] = Convert.ToDouble(textBox3.Text);
-                grade[1] = Convert.ToDouble(textBox4.Text);
-                grade[2] = Convert.ToDouble(textBox5.Text);
-                grade[3] = Convert.ToDouble(textBox6.Text);
-                for (int i = 0; i < 4; i++)
-                {
-                    media += grade[i];
-                }
-                media = media / 4;
-
-
-                prese = Convert.ToDouble(textBox7.Text);
-
-                prese /= 200;
-                prese *= 100;
-
+                label4.Text += "\nyour presence was not enough";
+            }if(media < 75)
+            {
+                label4.Text += "\nyour average was not good enough";
             }
-     
+            else
+            {
+                label4.Text += "\nyou're a winner!!\nyou passed the grade";
+            }
+
+
         }
 
         private void FrmAluno_Load(object sender, EventArgs e)
@@ -182,6 +197,11 @@ namespace _001.Projeto_Exercicio
         {
             FrmPrestacao prestacao = new FrmPrestacao();
             prestacao.ShowDialog();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

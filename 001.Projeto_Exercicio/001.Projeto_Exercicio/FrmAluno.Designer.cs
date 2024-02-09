@@ -47,6 +47,8 @@
             bhaskaraToolStripMenuItem = new ToolStripMenuItem();
             prestaçãoDeServiçoToolStripMenuItem = new ToolStripMenuItem();
             comJurosToolStripMenuItem = new ToolStripMenuItem();
+            label3 = new Label();
+            label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             menuStrip1.SuspendLayout();
             SuspendLayout();
@@ -63,7 +65,7 @@
             // button1
             // 
             button1.BackColor = Color.Transparent;
-            button1.FlatStyle = FlatStyle.Popup;
+            button1.FlatStyle = FlatStyle.Flat;
             button1.ForeColor = Color.Black;
             button1.Location = new Point(577, 666);
             button1.Name = "button1";
@@ -225,12 +227,37 @@
             comJurosToolStripMenuItem.Text = "Com Juros";
             comJurosToolStripMenuItem.Click += comJurosToolStripMenuItem_Click;
             // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Sitka Small", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            label3.Location = new Point(59, 403);
+            label3.Name = "label3";
+            label3.Size = new Size(167, 31);
+            label3.TabIndex = 14;
+            label3.Text = "your average:";
+            label3.Click += label3_Click;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Gadugi", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label4.Location = new Point(59, 444);
+            label4.Name = "label4";
+            label4.Size = new Size(145, 25);
+            label4.TabIndex = 15;
+            label4.Text = "your average:";
+            // 
             // FrmAluno
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Seja_Bem_Vindo_e_recebimento_de_notas__1_;
             ClientSize = new Size(1432, 755);
+            Controls.Add(label4);
+            Controls.Add(label3);
             Controls.Add(menuStrip1);
             Controls.Add(pictureBox1);
             Controls.Add(label2);
@@ -274,5 +301,7 @@
         private ToolStripMenuItem bhaskaraToolStripMenuItem;
         private ToolStripMenuItem prestaçãoDeServiçoToolStripMenuItem;
         private ToolStripMenuItem comJurosToolStripMenuItem;
+        private Label label3;
+        private Label label4;
     }
 }
