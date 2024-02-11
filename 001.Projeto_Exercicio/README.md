@@ -43,6 +43,14 @@ Foi Criado uma aba chamada prestação de serviço e dentro uma chamada com juro
 * Ao clicar no botão Enter aparecerá o resultado de sua prestação
 
 
+
+
+
+| Home | Aluno | Calculo | Prestação de Serviço |
+| -------------------- | -------------------- | -------------------- | -------------------- |
+| Pagina Principal | Média | Bhaskara | Com Juros |
+| Escolhas as Abas | Ijetar iformações | Ijetar iformações | Ijetar iformações | 
+
 # Partes Interessantes do Código
 
 **O Bloco de codigo A baixo foi utilizado para fazer uma função de placeholder chamada marck:**
