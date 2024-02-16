@@ -16,6 +16,40 @@ namespace _001.Projeto_Exercicio
         {
             InitializeComponent();
         }
+        //Service commission=value+(value*(fee/100)*time)
+        Double Sc;
+        Double Value;
+        Dobue
+
+        void marck(String MyText, TextBox textBox)
+        {
+            textBox.Paint += (sender, e) =>
+            {
+                if (string.IsNullOrEmpty(textBox.Text))
+                {
+                    textBox.ForeColor = Color.Gray;
+                    textBox.Text = MyText;
+                }
+            };
+
+            textBox.Enter += (sender, e) =>
+            {
+                if (textBox.Text == MyText)
+                {
+                    textBox.Clear();
+                    textBox.ForeColor = Color.Black;
+                }
+            };
+
+            textBox.Leave += (sender, e) =>
+            {
+                if (string.IsNullOrEmpty(textBox.Text))
+                {
+                    textBox.ForeColor = Color.Gray;
+                    textBox.Text = MyText;
+                }
+            };
+        }
 
         private void FrmPrestacao_Load(object sender, EventArgs e)
         {
@@ -44,6 +78,26 @@ namespace _001.Projeto_Exercicio
         {
             FrmPrestacao prestacao = new FrmPrestacao();
             prestacao.ShowDialog();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            marck("enter the amount of the installment", textBox1);
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            marck("enter the time of service", textBox2);
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            marck("enter your Service commission", textBox3);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //Service commission=value+(value*(fee/100)*time)
         }
     }
 }

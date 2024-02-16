@@ -36,6 +36,10 @@
             bhaskaraToolStripMenuItem = new ToolStripMenuItem();
             prestaçãoDeServiçoToolStripMenuItem = new ToolStripMenuItem();
             comJurosToolStripMenuItem = new ToolStripMenuItem();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            textBox3 = new TextBox();
+            button1 = new Button();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -45,7 +49,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { homeToolStripMenuItem, alunoToolStripMenuItem, calculosToolStripMenuItem, prestaçãoDeServiçoToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 24);
+            menuStrip1.Size = new Size(1432, 24);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -68,7 +72,7 @@
             // médiaToolStripMenuItem
             // 
             médiaToolStripMenuItem.Name = "médiaToolStripMenuItem";
-            médiaToolStripMenuItem.Size = new Size(180, 22);
+            médiaToolStripMenuItem.Size = new Size(107, 22);
             médiaToolStripMenuItem.Text = "Média";
             médiaToolStripMenuItem.Click += médiaToolStripMenuItem_Click;
             // 
@@ -84,7 +88,7 @@
             // 
             bhaskaraToolStripMenuItem.ForeColor = Color.Black;
             bhaskaraToolStripMenuItem.Name = "bhaskaraToolStripMenuItem";
-            bhaskaraToolStripMenuItem.Size = new Size(180, 22);
+            bhaskaraToolStripMenuItem.Size = new Size(121, 22);
             bhaskaraToolStripMenuItem.Text = "Bhaskara";
             bhaskaraToolStripMenuItem.Click += bhaskaraToolStripMenuItem_Click;
             // 
@@ -100,15 +104,56 @@
             // 
             comJurosToolStripMenuItem.ForeColor = Color.Black;
             comJurosToolStripMenuItem.Name = "comJurosToolStripMenuItem";
-            comJurosToolStripMenuItem.Size = new Size(180, 22);
+            comJurosToolStripMenuItem.Size = new Size(130, 22);
             comJurosToolStripMenuItem.Text = "Com Juros";
             comJurosToolStripMenuItem.Click += comJurosToolStripMenuItem_Click;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(561, 288);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(338, 23);
+            textBox1.TabIndex = 2;
+            textBox1.TextChanged += textBox1_TextChanged;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(561, 361);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(338, 23);
+            textBox2.TabIndex = 3;
+            textBox2.TextChanged += textBox2_TextChanged;
+            // 
+            // textBox3
+            // 
+            textBox3.Location = new Point(561, 428);
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(338, 23);
+            textBox3.TabIndex = 4;
+            textBox3.TextChanged += textBox3_TextChanged;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Transparent;
+            button1.FlatStyle = FlatStyle.Popup;
+            button1.Location = new Point(561, 638);
+            button1.Name = "button1";
+            button1.Size = new Size(338, 55);
+            button1.TabIndex = 5;
+            button1.Text = "Enter";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // FrmPrestacao
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = Properties.Resources.Seja_Bem_Vindo_e_recebimento_de_notas1;
+            ClientSize = new Size(1432, 755);
+            Controls.Add(button1);
+            Controls.Add(textBox3);
+            Controls.Add(textBox2);
+            Controls.Add(textBox1);
             Controls.Add(menuStrip1);
             Name = "FrmPrestacao";
             Text = "FrmPrestacao";
@@ -129,5 +174,9 @@
         private ToolStripMenuItem bhaskaraToolStripMenuItem;
         private ToolStripMenuItem prestaçãoDeServiçoToolStripMenuItem;
         private ToolStripMenuItem comJurosToolStripMenuItem;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private TextBox textBox3;
+        private Button button1;
     }
 }

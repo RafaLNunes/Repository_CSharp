@@ -119,5 +119,15 @@ namespace _001.Projeto_Exercicio.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Seja_Bem_Vindo_e_recebimento_de_notas1 {
+            get {
+                object obj = ResourceManager.GetObject("Seja Bem-Vindo e recebimento de notas1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
