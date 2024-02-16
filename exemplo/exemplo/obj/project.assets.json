@@ -8,23 +8,23 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\aluno\\.nuget\\packages\\": {},
+    "C:\\Users\\rafin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aluno\\Documents\\GitHub\\Repository_CSharp\\exemplo\\exemplo\\exemplo.csproj",
+      "projectUniqueName": "C:\\Users\\rafin\\OneDrive\\Documents\\GitHub\\Repository_CSharp\\exemplo\\exemplo\\exemplo.csproj",
       "projectName": "exemplo",
-      "projectPath": "C:\\Users\\aluno\\Documents\\GitHub\\Repository_CSharp\\exemplo\\exemplo\\exemplo.csproj",
-      "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aluno\\Documents\\GitHub\\Repository_CSharp\\exemplo\\exemplo\\obj\\",
+      "projectPath": "C:\\Users\\rafin\\OneDrive\\Documents\\GitHub\\Repository_CSharp\\exemplo\\exemplo\\exemplo.csproj",
+      "packagesPath": "C:\\Users\\rafin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rafin\\OneDrive\\Documents\\GitHub\\Repository_CSharp\\exemplo\\exemplo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rafin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

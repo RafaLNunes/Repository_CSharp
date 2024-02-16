@@ -1,10 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Compile Update="aaa.cs">
+    <Compile Update="aluno.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="aluno.cs">
+    <Compile Update="bhaskara.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="prestacao.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
