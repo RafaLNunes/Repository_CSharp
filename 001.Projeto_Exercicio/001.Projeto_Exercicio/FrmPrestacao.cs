@@ -19,7 +19,8 @@ namespace _001.Projeto_Exercicio
         //Service commission=value+(value*(fee/100)*time)
         Double Sc;
         Double Value;
-        Dobue
+        Double fee;
+        Double time;
 
         void marck(String MyText, TextBox textBox)
         {
@@ -92,12 +93,18 @@ namespace _001.Projeto_Exercicio
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            marck("enter your Service commission", textBox3);
+            marck("enter your fee", textBox3);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             //Service commission=value+(value*(fee/100)*time)
+            Value = Convert.ToDouble(textBox1.Text);
+            time = Convert.ToDouble(textBox2.Text);
+            fee = Convert.ToDouble(textBox3.Text);
+
+            Sc = Value + (Value * (fee / 100) * time);
+
         }
     }
 }
