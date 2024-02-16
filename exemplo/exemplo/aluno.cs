@@ -16,5 +16,10 @@ namespace exemplo
         {
             InitializeComponent();
         }
+
+        private void aluno_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

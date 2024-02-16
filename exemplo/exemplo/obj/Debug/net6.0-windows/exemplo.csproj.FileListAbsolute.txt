@@ -1,0 +1,17 @@
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\obj\Debug\net6.0-windows\exemplo.aluno.resources
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\obj\Debug\net6.0-windows\exemplo.csproj.GenerateResource.cache
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\obj\Debug\net6.0-windows\exemplo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\obj\Debug\net6.0-windows\exemplo.AssemblyInfoInputs.cache
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\obj\Debug\net6.0-windows\exemplo.AssemblyInfo.cs
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\obj\Debug\net6.0-windows\exemplo.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\obj\Debug\net6.0-windows\exemplo.sourcelink.json
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\bin\Debug\net6.0-windows\exemplo.exe
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\bin\Debug\net6.0-windows\exemplo.deps.json
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\bin\Debug\net6.0-windows\exemplo.runtimeconfig.json
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\bin\Debug\net6.0-windows\exemplo.dll
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\bin\Debug\net6.0-windows\exemplo.pdb
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\obj\Debug\net6.0-windows\exemplo.dll
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\obj\Debug\net6.0-windows\refint\exemplo.dll
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\obj\Debug\net6.0-windows\exemplo.pdb
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\obj\Debug\net6.0-windows\exemplo.genruntimeconfig.cache
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\obj\Debug\net6.0-windows\ref\exemplo.dll
