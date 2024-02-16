@@ -147,6 +147,7 @@
             button1.TabIndex = 12;
             button1.Text = "Claculadora";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // aluno
             // 
