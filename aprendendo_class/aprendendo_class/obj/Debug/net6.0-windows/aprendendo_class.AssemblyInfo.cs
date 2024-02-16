@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("002.Projeto_Exercicio")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("aprendendo_class")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a76a4a9fd8a36c4296e04145b89c9ef06d142a23")]
-[assembly: System.Reflection.AssemblyProductAttribute("002.Projeto_Exercicio")]
-[assembly: System.Reflection.AssemblyTitleAttribute("002.Projeto_Exercicio")]
+[assembly: System.Reflection.AssemblyProductAttribute("aprendendo_class")]
+[assembly: System.Reflection.AssemblyTitleAttribute("aprendendo_class")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
