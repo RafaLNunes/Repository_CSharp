@@ -7,9 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
-namespace _002.Projeto_Exercicio
+namespace aprendendo_class
 {
     public partial class teste : Form
     {
@@ -17,13 +16,10 @@ namespace _002.Projeto_Exercicio
         {
             InitializeComponent();
         }
-
         private void teste_Load(object sender, EventArgs e)
         {
             home hm = new home();
-
-            // Add the MenuStrip to the form.
-            this.Controls.Add(hm.vemhome());
+            hm.vemhome();
         }
     }
 }

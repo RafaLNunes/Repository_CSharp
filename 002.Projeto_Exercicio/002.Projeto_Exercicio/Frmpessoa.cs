@@ -35,5 +35,10 @@ namespace _002.Projeto_Exercicio
         {
 
         }
+
+        private void Frmpessoa_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

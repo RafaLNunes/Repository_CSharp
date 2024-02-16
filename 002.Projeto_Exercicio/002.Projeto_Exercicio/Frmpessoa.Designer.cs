@@ -136,25 +136,25 @@
             // pessoaToolStripMenuItem
             // 
             pessoaToolStripMenuItem.Name = "pessoaToolStripMenuItem";
-            pessoaToolStripMenuItem.Size = new Size(137, 22);
+            pessoaToolStripMenuItem.Size = new Size(180, 22);
             pessoaToolStripMenuItem.Text = "Pessoa";
             // 
             // alunoToolStripMenuItem
             // 
             alunoToolStripMenuItem.Name = "alunoToolStripMenuItem";
-            alunoToolStripMenuItem.Size = new Size(137, 22);
+            alunoToolStripMenuItem.Size = new Size(180, 22);
             alunoToolStripMenuItem.Text = "Aluno";
             // 
             // funcionarioToolStripMenuItem
             // 
             funcionarioToolStripMenuItem.Name = "funcionarioToolStripMenuItem";
-            funcionarioToolStripMenuItem.Size = new Size(137, 22);
+            funcionarioToolStripMenuItem.Size = new Size(180, 22);
             funcionarioToolStripMenuItem.Text = "Funcionario";
             // 
             // compradorToolStripMenuItem
             // 
             compradorToolStripMenuItem.Name = "compradorToolStripMenuItem";
-            compradorToolStripMenuItem.Size = new Size(137, 22);
+            compradorToolStripMenuItem.Size = new Size(180, 22);
             compradorToolStripMenuItem.Text = "Comprador";
             // 
             // formasToolStripMenuItem
@@ -167,19 +167,19 @@
             // retanguloToolStripMenuItem
             // 
             retanguloToolStripMenuItem.Name = "retanguloToolStripMenuItem";
-            retanguloToolStripMenuItem.Size = new Size(128, 22);
+            retanguloToolStripMenuItem.Size = new Size(180, 22);
             retanguloToolStripMenuItem.Text = "Retangulo";
             // 
             // trianguloToolStripMenuItem
             // 
             trianguloToolStripMenuItem.Name = "trianguloToolStripMenuItem";
-            trianguloToolStripMenuItem.Size = new Size(128, 22);
+            trianguloToolStripMenuItem.Size = new Size(180, 22);
             trianguloToolStripMenuItem.Text = "Triangulo";
             // 
             // circuloToolStripMenuItem
             // 
             circuloToolStripMenuItem.Name = "circuloToolStripMenuItem";
-            circuloToolStripMenuItem.Size = new Size(128, 22);
+            circuloToolStripMenuItem.Size = new Size(180, 22);
             circuloToolStripMenuItem.Text = "Circulo";
             // 
             // veiculoToolStripMenuItem
@@ -193,13 +193,13 @@
             // 
             tipoDeVeiculoToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { carroToolStripMenuItem });
             tipoDeVeiculoToolStripMenuItem.Name = "tipoDeVeiculoToolStripMenuItem";
-            tipoDeVeiculoToolStripMenuItem.Size = new Size(154, 22);
+            tipoDeVeiculoToolStripMenuItem.Size = new Size(180, 22);
             tipoDeVeiculoToolStripMenuItem.Text = "Tipo de veiculo";
             // 
             // carroToolStripMenuItem
             // 
             carroToolStripMenuItem.Name = "carroToolStripMenuItem";
-            carroToolStripMenuItem.Size = new Size(101, 22);
+            carroToolStripMenuItem.Size = new Size(180, 22);
             carroToolStripMenuItem.Text = "carro";
             // 
             // matematicaToolStripMenuItem
@@ -255,13 +255,13 @@
             // livroToolStripMenuItem
             // 
             livroToolStripMenuItem.Name = "livroToolStripMenuItem";
-            livroToolStripMenuItem.Size = new Size(175, 22);
+            livroToolStripMenuItem.Size = new Size(180, 22);
             livroToolStripMenuItem.Text = "Livro";
             // 
             // tamanhoCamisetaToolStripMenuItem
             // 
             tamanhoCamisetaToolStripMenuItem.Name = "tamanhoCamisetaToolStripMenuItem";
-            tamanhoCamisetaToolStripMenuItem.Size = new Size(175, 22);
+            tamanhoCamisetaToolStripMenuItem.Size = new Size(180, 22);
             tamanhoCamisetaToolStripMenuItem.Text = "Tamanho Camiseta";
             // 
             // dinheiroToolStripMenuItem
@@ -274,19 +274,19 @@
             // contaBancariaToolStripMenuItem
             // 
             contaBancariaToolStripMenuItem.Name = "contaBancariaToolStripMenuItem";
-            contaBancariaToolStripMenuItem.Size = new Size(154, 22);
+            contaBancariaToolStripMenuItem.Size = new Size(180, 22);
             contaBancariaToolStripMenuItem.Text = "Conta Bancaria";
             // 
             // prodToolStripMenuItem
             // 
             prodToolStripMenuItem.Name = "prodToolStripMenuItem";
-            prodToolStripMenuItem.Size = new Size(154, 22);
+            prodToolStripMenuItem.Size = new Size(180, 22);
             prodToolStripMenuItem.Text = "Produto";
             // 
             // pedidoToolStripMenuItem
             // 
             pedidoToolStripMenuItem.Name = "pedidoToolStripMenuItem";
-            pedidoToolStripMenuItem.Size = new Size(154, 22);
+            pedidoToolStripMenuItem.Size = new Size(180, 22);
             pedidoToolStripMenuItem.Text = "Pedido";
             // 
             // manipuladoresToolStripMenuItem
@@ -363,6 +363,7 @@
             Controls.Add(textname);
             Name = "Frmpessoa";
             Text = "Frmpessoa";
+            Load += Frmpessoa_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
