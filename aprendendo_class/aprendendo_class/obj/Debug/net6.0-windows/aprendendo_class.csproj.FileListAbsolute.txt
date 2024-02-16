@@ -1,0 +1,7 @@
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\aprendendo_class\aprendendo_class\obj\Debug\net6.0-windows\aprendendo_class.Form1.resources
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\aprendendo_class\aprendendo_class\obj\Debug\net6.0-windows\aprendendo_class.csproj.GenerateResource.cache
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\aprendendo_class\aprendendo_class\obj\Debug\net6.0-windows\aprendendo_class.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\aprendendo_class\aprendendo_class\obj\Debug\net6.0-windows\aprendendo_class.AssemblyInfoInputs.cache
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\aprendendo_class\aprendendo_class\obj\Debug\net6.0-windows\aprendendo_class.AssemblyInfo.cs
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\aprendendo_class\aprendendo_class\obj\Debug\net6.0-windows\aprendendo_class.csproj.CoreCompileInputs.cache
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\aprendendo_class\aprendendo_class\obj\Debug\net6.0-windows\aprendendo_class.sourcelink.json

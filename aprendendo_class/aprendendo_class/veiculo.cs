@@ -14,14 +14,19 @@ namespace _002.Projeto_Exercicio
 
         public veiculo()
         {
-            placa = "BAX2R36";
+            //placa = "BAX2R36";
             modelo = "";
 
         }
-        public String setPlaca()
+        public String getPlaca()
         {
-            placa = "EWL4D24";
+            //placa = "EWL4D24";
             return placa;
+        }
+
+        public void setplaca(String placa)
+        {
+            this.placa = placa;
         }
     }
 }

@@ -28,19 +28,100 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Cadastrar = new Button();
+            textchassi = new TextBox();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            textmodelo = new TextBox();
+            textplaca = new TextBox();
             SuspendLayout();
+            // 
+            // Cadastrar
+            // 
+            Cadastrar.Location = new Point(389, 139);
+            Cadastrar.Name = "Cadastrar";
+            Cadastrar.Size = new Size(75, 70);
+            Cadastrar.TabIndex = 0;
+            Cadastrar.Text = "Enter";
+            Cadastrar.UseVisualStyleBackColor = true;
+            Cadastrar.Click += Cadastrar_Click;
+            // 
+            // textchassi
+            // 
+            textchassi.Location = new Point(159, 118);
+            textchassi.Name = "textchassi";
+            textchassi.Size = new Size(100, 23);
+            textchassi.TabIndex = 1;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(96, 121);
+            label1.Name = "label1";
+            label1.Size = new Size(38, 15);
+            label1.TabIndex = 2;
+            label1.Text = "label1";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(96, 167);
+            label2.Name = "label2";
+            label2.Size = new Size(38, 15);
+            label2.TabIndex = 3;
+            label2.Text = "label2";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(96, 214);
+            label3.Name = "label3";
+            label3.Size = new Size(38, 15);
+            label3.TabIndex = 4;
+            label3.Text = "label3";
+            // 
+            // textmodelo
+            // 
+            textmodelo.Location = new Point(159, 159);
+            textmodelo.Name = "textmodelo";
+            textmodelo.Size = new Size(100, 23);
+            textmodelo.TabIndex = 5;
+            // 
+            // textplaca
+            // 
+            textplaca.Location = new Point(159, 211);
+            textplaca.Name = "textplaca";
+            textplaca.Size = new Size(100, 23);
+            textplaca.TabIndex = 6;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(textplaca);
+            Controls.Add(textmodelo);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(textchassi);
+            Controls.Add(Cadastrar);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Button Cadastrar;
+        private TextBox textchassi;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private TextBox textmodelo;
+        private TextBox textplaca;
     }
 }
