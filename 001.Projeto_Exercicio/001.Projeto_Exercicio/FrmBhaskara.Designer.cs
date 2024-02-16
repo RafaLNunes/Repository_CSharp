@@ -125,6 +125,7 @@
             homeToolStripMenuItem.Name = "homeToolStripMenuItem";
             homeToolStripMenuItem.Size = new Size(52, 20);
             homeToolStripMenuItem.Text = "Home";
+            homeToolStripMenuItem.Click += homeToolStripMenuItem_Click;
             // 
             // alunoToolStripMenuItem
             // 
@@ -137,8 +138,9 @@
             // médiaToolStripMenuItem
             // 
             médiaToolStripMenuItem.Name = "médiaToolStripMenuItem";
-            médiaToolStripMenuItem.Size = new Size(107, 22);
+            médiaToolStripMenuItem.Size = new Size(180, 22);
             médiaToolStripMenuItem.Text = "Média";
+            médiaToolStripMenuItem.Click += médiaToolStripMenuItem_Click;
             // 
             // calculosToolStripMenuItem
             // 
@@ -154,6 +156,7 @@
             bhaskaraToolStripMenuItem.Name = "bhaskaraToolStripMenuItem";
             bhaskaraToolStripMenuItem.Size = new Size(121, 22);
             bhaskaraToolStripMenuItem.Text = "Bhaskara";
+            bhaskaraToolStripMenuItem.Click += bhaskaraToolStripMenuItem_Click;
             // 
             // prestaçãoDeServiçoToolStripMenuItem
             // 
@@ -162,6 +165,7 @@
             prestaçãoDeServiçoToolStripMenuItem.Name = "prestaçãoDeServiçoToolStripMenuItem";
             prestaçãoDeServiçoToolStripMenuItem.Size = new Size(127, 20);
             prestaçãoDeServiçoToolStripMenuItem.Text = "Prestação de Serviço";
+            prestaçãoDeServiçoToolStripMenuItem.Click += prestaçãoDeServiçoToolStripMenuItem_Click;
             // 
             // comJurosToolStripMenuItem
             // 
@@ -169,6 +173,7 @@
             comJurosToolStripMenuItem.Name = "comJurosToolStripMenuItem";
             comJurosToolStripMenuItem.Size = new Size(130, 22);
             comJurosToolStripMenuItem.Text = "Com Juros";
+            comJurosToolStripMenuItem.Click += comJurosToolStripMenuItem_Click;
             // 
             // label3
             // 
@@ -198,6 +203,7 @@
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Name = "FrmBhaskara";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmBhaskara";
             Load += FrmBhaskara_Load;
             menuStrip1.ResumeLayout(false);

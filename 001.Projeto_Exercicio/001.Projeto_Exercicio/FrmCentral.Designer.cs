@@ -111,7 +111,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Seja_Bem_Vindo_e_recebimento_de_notas__2_;
-            ClientSize = new Size(1432, 725);
+            ClientSize = new Size(1432, 755);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "FrmCentral";

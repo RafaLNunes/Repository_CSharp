@@ -40,6 +40,7 @@
             textBox2 = new TextBox();
             textBox3 = new TextBox();
             button1 = new Button();
+            label1 = new Label();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
@@ -99,12 +100,13 @@
             prestaçãoDeServiçoToolStripMenuItem.Name = "prestaçãoDeServiçoToolStripMenuItem";
             prestaçãoDeServiçoToolStripMenuItem.Size = new Size(127, 20);
             prestaçãoDeServiçoToolStripMenuItem.Text = "Prestação de Serviço";
+            prestaçãoDeServiçoToolStripMenuItem.Click += prestaçãoDeServiçoToolStripMenuItem_Click;
             // 
             // comJurosToolStripMenuItem
             // 
             comJurosToolStripMenuItem.ForeColor = Color.Black;
             comJurosToolStripMenuItem.Name = "comJurosToolStripMenuItem";
-            comJurosToolStripMenuItem.Size = new Size(130, 22);
+            comJurosToolStripMenuItem.Size = new Size(180, 22);
             comJurosToolStripMenuItem.Text = "Com Juros";
             comJurosToolStripMenuItem.Click += comJurosToolStripMenuItem_Click;
             // 
@@ -144,18 +146,31 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Sitka Small", 15.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            label1.Location = new Point(43, 580);
+            label1.Name = "label1";
+            label1.Size = new Size(79, 31);
+            label1.TabIndex = 6;
+            label1.Text = "label1";
+            // 
             // FrmPrestacao
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = Properties.Resources.Seja_Bem_Vindo_e_recebimento_de_notas1;
             ClientSize = new Size(1432, 755);
+            Controls.Add(label1);
             Controls.Add(button1);
             Controls.Add(textBox3);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(menuStrip1);
             Name = "FrmPrestacao";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmPrestacao";
             Load += FrmPrestacao_Load;
             menuStrip1.ResumeLayout(false);
@@ -178,5 +193,6 @@
         private TextBox textBox2;
         private TextBox textBox3;
         private Button button1;
+        private Label label1;
     }
 }

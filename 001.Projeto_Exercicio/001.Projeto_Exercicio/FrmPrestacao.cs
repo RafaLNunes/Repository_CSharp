@@ -15,6 +15,14 @@ namespace _001.Projeto_Exercicio
         public FrmPrestacao()
         {
             InitializeComponent();
+            label1.Text = "";
+            textBox1.ForeColor = Color.Gray;
+            textBox2.ForeColor = Color.Gray;
+            textBox3.ForeColor = Color.Gray;
+            textBox1.Text = "enter the amount of the installment";
+            textBox2.Text = "enter the time of service";
+            textBox3.Text = "enter your fee";
+
         }
         //Service commission=value+(value*(fee/100)*time)
         Double Sc;
@@ -104,6 +112,12 @@ namespace _001.Projeto_Exercicio
             fee = Convert.ToDouble(textBox3.Text);
 
             Sc = Value + (Value * (fee / 100) * time);
+
+            label1.Text = "Your Service commission is: " + Sc.ToString();
+        }
+
+        private void prestaçãoDeServiçoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
 
         }
     }

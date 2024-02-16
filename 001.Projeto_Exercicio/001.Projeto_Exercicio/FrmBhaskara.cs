@@ -68,7 +68,7 @@ namespace _001.Projeto_Exercicio
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             marck("enter the substitute for A", textBox1);
-            
+
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -92,7 +92,7 @@ namespace _001.Projeto_Exercicio
 
         private void label2_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -124,6 +124,35 @@ namespace _001.Projeto_Exercicio
 
             label1.Text = $"X1 = {bhkn}";
             label3.Text = $"X2 = {bhkp}";
+        }
+
+        private void prestaçãoDeServiçoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void comJurosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmPrestacao prestacao = new FrmPrestacao();
+            prestacao.ShowDialog();
+        }
+
+        private void bhaskaraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmBhaskara bhaskara = new FrmBhaskara();
+            bhaskara.ShowDialog();
+        }
+
+        private void médiaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmAluno aluno = new FrmAluno();
+            aluno.ShowDialog();
+        }
+
+        private void homeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCentral home = new FrmCentral();
+            home.ShowDialog();
         }
     }
 }
