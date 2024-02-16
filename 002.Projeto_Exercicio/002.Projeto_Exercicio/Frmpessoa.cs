@@ -30,5 +30,10 @@ namespace _002.Projeto_Exercicio
         {
 
         }
+
+        private void operacoesMatematicasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

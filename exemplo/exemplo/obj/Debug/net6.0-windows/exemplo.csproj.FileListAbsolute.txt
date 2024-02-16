@@ -15,3 +15,4 @@ C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\obj\Debug\net6
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\obj\Debug\net6.0-windows\exemplo.pdb
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\obj\Debug\net6.0-windows\exemplo.genruntimeconfig.cache
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\obj\Debug\net6.0-windows\ref\exemplo.dll
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\exemplo\exemplo\obj\Debug\net6.0-windows\exemplo.aaa.resources

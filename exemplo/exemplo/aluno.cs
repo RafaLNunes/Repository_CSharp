@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace exemplo
 {
-    public partial class aluno : Form
+    public partial class aluno : aaa
     {
         public aluno()
         {
