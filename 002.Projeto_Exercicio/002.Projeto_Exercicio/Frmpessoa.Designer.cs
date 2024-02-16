@@ -96,6 +96,7 @@
             Controls.Add(textidade);
             Controls.Add(textname);
             Name = "Frmpessoa";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Frmpessoa";
             Load += Frmpessoa_Load;
             ResumeLayout(false);

@@ -22,12 +22,12 @@ namespace _002.Projeto_Exercicio
             menu.Items.Add(Formas);
             ToolStripMenuItem Veiculo = new ToolStripMenuItem("Veículo");
             menu.Items.Add(Veiculo);
-            ToolStripMenuItem Cálculos = new ToolStripMenuItem("Cálculos");
-            menu.Items.Add(Cálculos);
+            ToolStripMenuItem Calculos = new ToolStripMenuItem("Cálculos");
+            menu.Items.Add(Calculos);
             ToolStripMenuItem Objetos = new ToolStripMenuItem("Objetos");
             menu.Items.Add(Objetos);
-            ToolStripMenuItem Finanças = new ToolStripMenuItem("Finanças");
-            menu.Items.Add(Finanças);
+            ToolStripMenuItem Financas = new ToolStripMenuItem("Finanças");
+            menu.Items.Add(Financas);
             ToolStripMenuItem Manipuladores = new ToolStripMenuItem("Manipuladores");
             menu.Items.Add(Manipuladores);
             ToolStripMenuItem Agenda = new ToolStripMenuItem("Agenda");
@@ -42,30 +42,30 @@ namespace _002.Projeto_Exercicio
             ToolStripMenuItem Comprador = new ToolStripMenuItem("002.006.Comprador");
             Humano.DropDownItems.Add(Comprador);
 
-            ToolStripMenuItem Retângulo = new ToolStripMenuItem("001.002.Retângulo");
-            Formas.DropDownItems.Add(Retângulo);
-            ToolStripMenuItem Triângulo = new ToolStripMenuItem("001.008.Triângulo");
-            Formas.DropDownItems.Add(Triângulo);
-            ToolStripMenuItem Círculo = new ToolStripMenuItem("001.005.Círculo");
-            Formas.DropDownItems.Add(Círculo);
+            ToolStripMenuItem Retangulo = new ToolStripMenuItem("001.002.Retângulo");
+            Formas.DropDownItems.Add(Retangulo);
+            ToolStripMenuItem Triangulo = new ToolStripMenuItem("001.008.Triângulo");
+            Formas.DropDownItems.Add(Triangulo);
+            ToolStripMenuItem Circulo = new ToolStripMenuItem("001.005.Círculo");
+            Formas.DropDownItems.Add(Circulo);
 
-            ToolStripMenuItem TipoVeículo = new ToolStripMenuItem("003.009.Tipo de Veículo");
-            Veiculo.DropDownItems.Add(TipoVeículo);
+            ToolStripMenuItem TipoVeiculo = new ToolStripMenuItem("003.009.Tipo de Veículo");
+            Veiculo.DropDownItems.Add(TipoVeiculo);
             ToolStripMenuItem Carro = new ToolStripMenuItem("001.007.Carro");
-            TipoVeículo.DropDownItems.Add(Carro);
+            TipoVeiculo.DropDownItems.Add(Carro);
 
             ToolStripMenuItem CalcGeometrico = new ToolStripMenuItem("002.005.Cálculo Geométrico");
-            Cálculos.DropDownItems.Add(CalcGeometrico);
-            ToolStripMenuItem CalcUnitário = new ToolStripMenuItem("Cálculo Unitário");
-            Cálculos.DropDownItems.Add(CalcUnitário);
+            Calculos.DropDownItems.Add(CalcGeometrico);
+            ToolStripMenuItem CalcUnitario = new ToolStripMenuItem("Cálculo Unitário");
+            Calculos.DropDownItems.Add(CalcUnitario);
             ToolStripMenuItem OpMat = new ToolStripMenuItem("002.010.Operações Matemáticas");
-            Cálculos.DropDownItems.Add(OpMat);
+            Calculos.DropDownItems.Add(OpMat);
             ToolStripMenuItem Calculadora = new ToolStripMenuItem("002.001.Calculadora");
-            Cálculos.DropDownItems.Add(Calculadora);
+            Calculos.DropDownItems.Add(Calculadora);
             ToolStripMenuItem Conversor = new ToolStripMenuItem("002.002.Conversor");
-            Cálculos.DropDownItems.Add(Conversor);
-            ToolStripMenuItem Matemática = new ToolStripMenuItem("002.003.Matemática");
-            Cálculos.DropDownItems.Add(Matemática);
+            Calculos.DropDownItems.Add(Conversor);
+            ToolStripMenuItem Matematica = new ToolStripMenuItem("002.003.Matemática");
+            Calculos.DropDownItems.Add(Matematica);
 
             ToolStripMenuItem Livro = new ToolStripMenuItem("001.004.Livro");
             Objetos.DropDownItems.Add(Livro);
@@ -97,6 +97,8 @@ namespace _002.Projeto_Exercicio
 
             Pessoa.Click += PessoaToolStripMenuItem_Click;
 
+            Retangulo.Click += RetanguloToolStringMenuItem_Click;
+
             return menu;
         }
         private void PessoaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -104,6 +106,12 @@ namespace _002.Projeto_Exercicio
 
             Frmpessoa pessoa = new Frmpessoa();
             pessoa.ShowDialog();
+        }
+    
+        private void RetanguloToolStringMenuItem_Click(Object sender, EventArgs e)
+        {
+            FrmRetangulo retangulo = new FrmRetangulo();
+            retangulo.ShowDialog();
         }
     }
 }

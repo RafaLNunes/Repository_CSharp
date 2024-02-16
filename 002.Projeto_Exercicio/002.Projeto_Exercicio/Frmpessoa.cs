@@ -32,11 +32,6 @@ namespace _002.Projeto_Exercicio
 
         }
 
-        private void operacoesMatematicasToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void Frmpessoa_Load(object sender, EventArgs e)
         {
             home hm = new home();

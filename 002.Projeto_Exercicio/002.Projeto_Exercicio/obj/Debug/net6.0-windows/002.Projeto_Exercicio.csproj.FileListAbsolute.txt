@@ -15,4 +15,4 @@ C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Proj
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\002.Projeto_Exercicio.genruntimeconfig.cache
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\ref\002.Projeto_Exercicio.dll
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.Frmpessoa.resources
-C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.teste.resources
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.FrmRetangulo.resources
