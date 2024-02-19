@@ -102,6 +102,7 @@ namespace _002.Projeto_Exercicio
             ContaBanc.Click += ContaBancToolStringMenuItem_Click;
             Livro.Click += LivroToolStringMenuItem_Click;
             Circulo.Click += CirculoToolStringMenuItem_Click;
+            Aluno.Click += AlunoloToolStringMenuItem_Click;
 
             return menu;
         }
@@ -132,6 +133,12 @@ namespace _002.Projeto_Exercicio
         {
             frmcirculo circulo = new frmcirculo(); 
             circulo.ShowDialog();
+        }
+    
+        private void AlunoloToolStringMenuItem_Click(object sender, EventArgs e )
+        {
+            FrmAluno aluno = new FrmAluno();
+            aluno.ShowDialog();
         }
     }
 }

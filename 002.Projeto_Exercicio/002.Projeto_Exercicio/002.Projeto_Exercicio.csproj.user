@@ -4,6 +4,9 @@
     <Compile Update="FrmAberturabanco.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmAluno.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FrmBanco.cs">
       <SubType>Form</SubType>
     </Compile>
