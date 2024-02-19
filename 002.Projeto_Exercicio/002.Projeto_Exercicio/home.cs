@@ -102,6 +102,7 @@ namespace _002.Projeto_Exercicio
             Retangulo.Click += RetanguloToolStringMenuItem_Click;
 
             ContaBanc.Click += ContaBancToolStringMenuItem_Click;
+            Livro.Click += LivroToolStringMenuItem_Click;
 
             return menu;
         }
@@ -120,8 +121,12 @@ namespace _002.Projeto_Exercicio
 
         private void ContaBancToolStringMenuItem_Click(object sender, EventArgs e)
         {
-            FrmBanco banco = new FrmBanco();
+            FrmAberturabanco banco = new FrmAberturabanco();
             banco.ShowDialog();
+        }
+        private void LivroToolStringMenuItem_Click(object sender, EventArgs e)
+        {
+            Frm
         }
     }
 }

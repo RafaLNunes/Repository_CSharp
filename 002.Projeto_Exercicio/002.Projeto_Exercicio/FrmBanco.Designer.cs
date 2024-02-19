@@ -30,29 +30,44 @@
         {
             button1 = new Button();
             textBox1 = new TextBox();
+            button2 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(472, 316);
+            button1.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button1.Location = new Point(441, 233);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(109, 61);
             button1.TabIndex = 0;
-            button1.Text = "Check";
+            button1.Text = "Depositar";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(202, 177);
+            textBox1.Location = new Point(212, 219);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(126, 23);
             textBox1.TabIndex = 1;
+            // 
+            // button2
+            // 
+            button2.Font = new Font("Segoe UI", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            button2.Location = new Point(441, 163);
+            button2.Name = "button2";
+            button2.Size = new Size(109, 61);
+            button2.TabIndex = 2;
+            button2.Text = "Sacar";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // FrmBanco
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(844, 481);
+            Controls.Add(button2);
             Controls.Add(textBox1);
             Controls.Add(button1);
             Name = "FrmBanco";
@@ -67,5 +82,6 @@
 
         private Button button1;
         private TextBox textBox1;
+        private Button button2;
     }
 }

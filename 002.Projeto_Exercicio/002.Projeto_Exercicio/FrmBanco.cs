@@ -21,9 +21,21 @@ namespace _002.Projeto_Exercicio
         private void FrmBanco_Load(object sender, EventArgs e)
         {
 
-        
 
 
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            clbanco banco = new clbanco();
+            banco.Cot_cont(textBox1, 2);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            clbanco banco = new clbanco();
+            banco.Cot_cont(textBox1, 1);
         }
     }
 }
