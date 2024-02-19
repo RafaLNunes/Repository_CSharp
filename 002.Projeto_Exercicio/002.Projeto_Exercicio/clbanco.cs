@@ -34,7 +34,8 @@ namespace _002.Projeto_Exercicio
                 if (vercao == 1)
                 {
                     deposito = Convert.ToDouble(textBox.Text);
-                    saldo += deposito;
+                    saldo = saldo + deposito;
+                    MessageBox.Show($"Seu sldo acaba de aumentar em: {deposito}\nSeu saldo atual é: {saldo}");
                 }
                 //Sacar
                 else if (vercao == 2)
@@ -42,9 +43,9 @@ namespace _002.Projeto_Exercicio
                     sacar = Convert.ToDouble(textBox.Text);
                     if (sacar > saldo)
                     {
-                        sacar -= saldo;
+                        sacar = sacar - saldo;
                         saldo = 0;
-                        limite -= sacar;
+                        limite = limite - sacar;
                         limite *= -1;
                         MessageBox.Show("esse saque ultrapassou seu saldo, parte do seu limite vai ser usado");
                         MessageBox.Show($"O seu limite atual é de: {limite}");

@@ -21,7 +21,8 @@ namespace _002.Projeto_Exercicio
         private void FrmBanco_Load(object sender, EventArgs e)
         {
 
-
+            home hm = new home();
+            this.Controls.Add(hm.vemhome());
 
 
         }

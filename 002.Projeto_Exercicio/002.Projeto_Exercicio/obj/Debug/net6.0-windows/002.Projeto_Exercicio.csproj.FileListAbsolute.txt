@@ -18,3 +18,5 @@ C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Proj
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.FrmRetangulo.resources
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.FrmBanco.resources
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.FrmAberturabanco.resources
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.FrmLivro.resources
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.frmcirculo.resources

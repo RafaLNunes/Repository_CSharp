@@ -98,11 +98,10 @@ namespace _002.Projeto_Exercicio
 
 
             Pessoa.Click += PessoaToolStripMenuItem_Click;
-
             Retangulo.Click += RetanguloToolStringMenuItem_Click;
-
             ContaBanc.Click += ContaBancToolStringMenuItem_Click;
             Livro.Click += LivroToolStringMenuItem_Click;
+            Circulo.Click += CirculoToolStringMenuItem_Click;
 
             return menu;
         }
@@ -126,7 +125,13 @@ namespace _002.Projeto_Exercicio
         }
         private void LivroToolStringMenuItem_Click(object sender, EventArgs e)
         {
-            Frm
+            FrmLivro livro = new FrmLivro();
+            livro.ShowDialog();
+        }
+        private void CirculoToolStringMenuItem_Click(object sender, EventArgs e)
+        {
+            frmcirculo circulo = new frmcirculo(); 
+            circulo.ShowDialog();
         }
     }
 }
