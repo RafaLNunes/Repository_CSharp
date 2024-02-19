@@ -21,6 +21,14 @@ namespace _002.Projeto_Exercicio
         {
             home hm = new home();
             this.Controls.Add(hm.vemhome());
+            resut.Text = "";
+
+        }
+
+        private void Enter_Click(object sender, EventArgs e)
+        {
+            clretangulo area = new clretangulo();
+            resut.Text = area.calc_area(resut, Largura, Altura);
         }
     }
 }

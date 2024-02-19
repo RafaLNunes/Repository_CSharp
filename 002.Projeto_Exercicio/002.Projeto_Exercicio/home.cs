@@ -16,6 +16,7 @@ namespace _002.Projeto_Exercicio
         {
             MenuStrip menu = new MenuStrip();
 
+
             ToolStripMenuItem Humano = new ToolStripMenuItem("Humano");
             menu.Items.Add(Humano);
             ToolStripMenuItem Formas = new ToolStripMenuItem("Formas");
@@ -73,31 +74,34 @@ namespace _002.Projeto_Exercicio
             Objetos.DropDownItems.Add(TamCam);
 
             ToolStripMenuItem ContaBanc = new ToolStripMenuItem("001.003.Conta Bancária");
-            Objetos.DropDownItems.Add(ContaBanc);
+            Financas.DropDownItems.Add(ContaBanc);
             ToolStripMenuItem Produto = new ToolStripMenuItem("001.009.Produto");
-            Objetos.DropDownItems.Add(Produto);
+            Financas.DropDownItems.Add(Produto);
             ToolStripMenuItem Pedido = new ToolStripMenuItem("003.006.Pedido");
-            Objetos.DropDownItems.Add(Pedido);
+            Financas.DropDownItems.Add(Pedido);
 
             ToolStripMenuItem ManipTexto = new ToolStripMenuItem("002.004.Manipulador de Texto");
-            Objetos.DropDownItems.Add(ManipTexto);
+            Manipuladores.DropDownItems.Add(ManipTexto);
             ToolStripMenuItem ManipArq = new ToolStripMenuItem("002.007.Manipulador de Arquivos");
-            Objetos.DropDownItems.Add(ManipArq);
+            Manipuladores.DropDownItems.Add(ManipArq);
             ToolStripMenuItem ConvUnidade = new ToolStripMenuItem("002.008.Conversor de Unidades");
-            Objetos.DropDownItems.Add(ConvUnidade);
+            Manipuladores.DropDownItems.Add(ConvUnidade);
             ToolStripMenuItem ManipLista = new ToolStripMenuItem("002.009.Manipulador de Lista");
-            Objetos.DropDownItems.Add(ManipLista);
+            Manipuladores.DropDownItems.Add(ManipLista);
 
             ToolStripMenuItem DiasSemana = new ToolStripMenuItem("003.001.Dias da Semana");
-            Objetos.DropDownItems.Add(DiasSemana);
+            Agenda.DropDownItems.Add(DiasSemana);
             ToolStripMenuItem MesesAno = new ToolStripMenuItem("003.003.Meses do Ano");
-            Objetos.DropDownItems.Add(MesesAno);
+            Agenda.DropDownItems.Add(MesesAno);
             ToolStripMenuItem EstacoesAno = new ToolStripMenuItem("003.007.Estações do Ano");
-            Objetos.DropDownItems.Add(EstacoesAno);
+            Agenda.DropDownItems.Add(EstacoesAno);
+
 
             Pessoa.Click += PessoaToolStripMenuItem_Click;
 
             Retangulo.Click += RetanguloToolStringMenuItem_Click;
+
+            ContaBanc.Click += ContaBancToolStringMenuItem_Click;
 
             return menu;
         }
@@ -112,6 +116,12 @@ namespace _002.Projeto_Exercicio
         {
             FrmRetangulo retangulo = new FrmRetangulo();
             retangulo.ShowDialog();
+        }
+
+        private void ContaBancToolStringMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmBanco banco = new FrmBanco();
+            banco.ShowDialog();
         }
     }
 }
