@@ -1,4 +1,4 @@
-# 001.001.
+# 001.001. Pessoa
 Crie uma classe chamada "Pessoa" com as propriedades "Nome" e "Idade". Implemente também um método chamado "Apresentar" que exibe uma mensagem com o nome e a idade da pessoa.
 # 001.002.
 Crie uma classe chamada "Retangulo" com as propriedades "Largura" e "Altura". Implemente uma propriedade chamada "Area" que calcula e retorna a área do retângulo (Largura * Altura).
