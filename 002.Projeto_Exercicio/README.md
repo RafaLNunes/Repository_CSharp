@@ -1,6 +1,6 @@
 # 001.001. Pessoa
 Crie uma classe chamada "Pessoa" com as propriedades "Nome" e "Idade". Implemente também um método chamado "Apresentar" que exibe uma mensagem com o nome e a idade da pessoa.
-# 001.002.
+# 001.002. Retangulo
 Crie uma classe chamada "Retangulo" com as propriedades "Largura" e "Altura". Implemente uma propriedade chamada "Area" que calcula e retorna a área do retângulo (Largura * Altura).
 # 001.003.
 Escreva uma classe chamada "ContaBancaria" com as propriedades "Saldo" e "Limite". Implemente métodos para depositar e sacar dinheiro da conta. Certifique-se de que o saldo não ultrapasse o limite estabelecido.
