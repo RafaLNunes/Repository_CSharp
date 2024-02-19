@@ -2,11 +2,11 @@
 Crie uma classe chamada "Pessoa" com as propriedades "Nome" e "Idade". Implemente também um método chamado "Apresentar" que exibe uma mensagem com o nome e a idade da pessoa.
 # 001.002. Retangulo
 Crie uma classe chamada "Retangulo" com as propriedades "Largura" e "Altura". Implemente uma propriedade chamada "Area" que calcula e retorna a área do retângulo (Largura * Altura).
-# 001.003.
+# 001.003. ContaBancaria
 Escreva uma classe chamada "ContaBancaria" com as propriedades "Saldo" e "Limite". Implemente métodos para depositar e sacar dinheiro da conta. Certifique-se de que o saldo não ultrapasse o limite estabelecido.
-# 001.004. 
+# 001.004. Livro
 Crie uma classe chamada "Livro" com as propriedades "Titulo", "Autor" e "AnoPublicacao". Implemente uma propriedade chamada "Edicao" que permite ler e redefinir o número da edição do livro.
-# 001.005.
+# 001.005. Circulo
 Crie uma classe chamada "Circulo" com a propriedade "Raio". Implemente uma propriedade chamada "Diametro" que calcula e retorna o diâmetro do círculo (2 * Raio).
 # 001.006.
 Escreva uma classe chamada "Aluno" com as propriedades "Nome" e "Notas" (um array de double). Implemente uma propriedade chamada "Media" que calcula a média das notas do aluno.
