@@ -10,7 +10,7 @@ Crie uma classe chamada "Livro" com as propriedades "Titulo", "Autor" e "AnoPubl
 Crie uma classe chamada "Circulo" com a propriedade "Raio". Implemente uma propriedade chamada "Diametro" que calcula e retorna o diâmetro do círculo (2 * Raio).
 # 001.006. Aluno
 Escreva uma classe chamada "Aluno" com as propriedades "Nome" e "Notas" (um array de double). Implemente uma propriedade chamada "Media" que calcula a média das notas do aluno.
-# 001.007. xx
+# 001.007. Carro
 Crie uma classe chamada "Carro" com as propriedades "Marca" e "Modelo". Implemente uma propriedade chamada "Descricao" que concatene a marca e o modelo em uma única string.
 # 001.008.
 Escreva uma classe chamada "Triangulo" com as propriedades "LadoA", "LadoB" e "LadoC". Implemente uma propriedade chamada "Perimetro" que calcula e retorna o perímetro do triângulo (LadoA + LadoB + LadoC).
