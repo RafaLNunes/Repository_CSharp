@@ -14,7 +14,7 @@ Escreva uma classe chamada "Aluno" com as propriedades "Nome" e "Notas" (um arra
 Crie uma classe chamada "Carro" com as propriedades "Marca" e "Modelo". Implemente uma propriedade chamada "Descricao" que concatene a marca e o modelo em uma única string.
 # 001.008. Triangulo
 Escreva uma classe chamada "Triangulo" com as propriedades "LadoA", "LadoB" e "LadoC". Implemente uma propriedade chamada "Perimetro" que calcula e retorna o perímetro do triângulo (LadoA + LadoB + LadoC).
-# 001.009.
+# 001.009. Produto
 Crie uma classe chamada "Produto" com as propriedades "Nome", "Preco" e "Desconto". Implemente uma propriedade chamada "PrecoComDesconto" que calcula e retorna o preço do produto com desconto aplicado.
 # 001.010.
 Escreva uma classe chamada "Funcionario" com as propriedades "Nome" e "Salario". Implemente uma propriedade chamada "SalarioAnual" que calcula e retorna o salário anual do funcionário (Salario * 12). Sobrecarga de Métodos:
