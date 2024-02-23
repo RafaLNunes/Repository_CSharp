@@ -26,7 +26,9 @@ namespace _002.Projeto_Exercicio
         private void button1_Click(object sender, EventArgs e)
         {
             claluno aluno = new claluno();
-            MessageBox.Show($"Sua média é: {aluno.media(textBox1, textBox2)}");
+            aluno.media(textBox1, textBox2, textBox3, textBox4, textBox5, textBox6);
+
+            MessageBox.Show($"Sua média é: {aluno.Entre_Nota()}");
         }
     }
 }

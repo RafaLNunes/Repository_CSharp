@@ -11,27 +11,22 @@ namespace _002.Projeto_Exercicio
     {
         public Double[] nota = new Double[5];
         public String nome;
-        public Double media(TextBox textBox, TextBox textBox1)
+        public Double return_media;
+        public Double media(TextBox textBox, TextBox textBox1, TextBox textBox2, TextBox textBox3, TextBox textBox4, TextBox textBox5)
         {
             Double media = 0;
-            Int32 cont = nota.Length;
-            if (!String.IsNullOrEmpty(textBox.Text) && !String.IsNullOrEmpty(textBox1.Text) ){
-                nome = textBox.Text;
-                nota[1] = Convert.ToDouble(textBox1.Text);
-                MessageBox.Show($"Sua nota {cont+1} é: {nota[1]}");
-                media += nota[1];
-            }
 
-            textBox1.Text = null;
+            if (!String.IsNullOrEmpty(textBox.Text) && !String.IsNullOrEmpty(textBox1.Text) && !String.IsNullOrEmpty(textBox2.Text) && !String.IsNullOrEmpty(textBox3.Text) && !String.IsNullOrEmpty(textBox4.Text))
+            {
+                nota[0] = Convert.ToDouble(textBox1.Text);
+                nota[1] = Convert.ToDouble(textBox2.Text);
+                nota[2] = Convert.ToDouble(textBox3.Text);
+                nota[3] = Convert.ToDouble(textBox4.Text);
+                nota[4] = Convert.ToDouble(textBox5.Text);
 
-            if (!String.IsNullOrEmpty(textBox.Text) && !String.IsNullOrEmpty(textBox1.Text) ){
-                for (int i = 1; i < 6; i++)
+                for (int i = 0; i < 5; i++)
                 {
-                    textBox.Text = nome;
-                    nota[i] = Convert.ToDouble(textBox1.Text);
-                    MessageBox.Show($"Sua nota {i} é: {nota[i]}");
                     media += nota[i];
-                    textBox1.Text = null;
                 }
             }
             else
@@ -39,6 +34,17 @@ namespace _002.Projeto_Exercicio
                 textBox.Focus();
             }
 
+            return_media = media;
+            return media;
+        }
+
+        public Double Entre_Nota()
+        {
+            Double media = return_media;
+            for (int i = 0;i<5;i++ )
+            {
+                MessageBox.Show($"Sua nota {i+1} é: {nota[i]}");
+            }
             return media;
         }
     }
