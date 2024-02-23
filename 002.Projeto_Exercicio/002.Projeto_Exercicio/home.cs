@@ -103,7 +103,7 @@ namespace _002.Projeto_Exercicio
             Livro.Click += LivroToolStringMenuItem_Click;
             Circulo.Click += CirculoToolStringMenuItem_Click;
             Aluno.Click += AlunoloToolStringMenuItem_Click;
-
+            Carro.Click += CarroToolStringMenuItem_Click;
             return menu;
         }
         private void PessoaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -139,6 +139,12 @@ namespace _002.Projeto_Exercicio
         {
             FrmAluno aluno = new FrmAluno();
             aluno.ShowDialog();
+        }
+
+        private void CarroToolStringMenuItem_Click(object sender, EventArgs e) 
+        {
+            Frmcarro carro = new Frmcarro();
+            carro.ShowDialog();
         }
     }
 }

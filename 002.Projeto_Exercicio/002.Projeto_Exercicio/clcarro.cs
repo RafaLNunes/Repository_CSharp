@@ -8,25 +8,17 @@ namespace _002.Projeto_Exercicio
 {
     internal class clcarro
     {
+        public String[] Marca = new String[5] {"mac1", "mac2", "mac3", "mac4", "mac5"};
+        public String[] Modelo = new String[5] {"Car1", "Car2", "Car3", "Car4", "Car5" };
 
-        public String Marca;
-        public String Modelo;
+        public String[] cnc = new String[5];
 
-        public String Descricao(TextBox textBox, TextBox textBox1, String var1, String var2, Int32 Cont) {
-
-
-            if(!String.IsNullOrEmpty(textBox.Text) && !String.IsNullOrEmpty(textBox1.Text))
+        public void concatenar()
+        {
+            for (int i = 0; i < Marca.Length; i++)
             {
-                Marca = textBox.Text;
-                Modelo = textBox1.Text;
-
-                var1 = textBox.Text;
-                var2 = textBox1.Text;
-
+                MessageBox.Show($"A marca é: {Marca[i]}\nO modelo é: {Modelo[i]}");
             }
-            Cont += 1;
-            return Marca;
         }
-
     }
 }
