@@ -99,7 +99,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(844, 481);
             Controls.Add(textC);
             Controls.Add(textB);
             Controls.Add(label4);
@@ -108,6 +108,7 @@
             Controls.Add(textA);
             Controls.Add(button1);
             Name = "Frmtriangulo";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "cltriangulo";
             Load += Frmtriangulo_Load;
             ResumeLayout(false);

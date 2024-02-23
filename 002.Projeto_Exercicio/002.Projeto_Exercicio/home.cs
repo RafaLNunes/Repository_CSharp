@@ -104,6 +104,9 @@ namespace _002.Projeto_Exercicio
             Circulo.Click += CirculoToolStringMenuItem_Click;
             Aluno.Click += AlunoloToolStringMenuItem_Click;
             Carro.Click += CarroToolStringMenuItem_Click;
+            Triangulo.Click += TrianguloToolStringMenuItem_Click;
+
+
             return menu;
         }
         private void PessoaToolStripMenuItem_Click(object sender, EventArgs e)
@@ -145,6 +148,11 @@ namespace _002.Projeto_Exercicio
         {
             Frmcarro carro = new Frmcarro();
             carro.ShowDialog();
+        }
+        private void TrianguloToolStringMenuItem_Click( object sender, EventArgs e)
+        {
+            Frmtriangulo tri = new Frmtriangulo();
+            tri.ShowDialog();
         }
     }
 }
