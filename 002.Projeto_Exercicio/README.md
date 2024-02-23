@@ -16,15 +16,15 @@ Crie uma classe chamada "Carro" com as propriedades "Marca" e "Modelo". Implemen
 Escreva uma classe chamada "Triangulo" com as propriedades "LadoA", "LadoB" e "LadoC". Implemente uma propriedade chamada "Perimetro" que calcula e retorna o perímetro do triângulo (LadoA + LadoB + LadoC).
 # 001.009. Produto
 Crie uma classe chamada "Produto" com as propriedades "Nome", "Preco" e "Desconto". Implemente uma propriedade chamada "PrecoComDesconto" que calcula e retorna o preço do produto com desconto aplicado.
-# 001.010.
+# 001.010. Funcionario
 Escreva uma classe chamada "Funcionario" com as propriedades "Nome" e "Salario". Implemente uma propriedade chamada "SalarioAnual" que calcula e retorna o salário anual do funcionário (Salario * 12). Sobrecarga de Métodos:
-## 002.001.
+## 002.001. Calculadora
 Crie uma classe chamada "Calculadora" com um método chamado "Somar" que recebe dois inteiros como parâmetros e retorna a soma desses números. Sobrecarregue o método "Somar" para que também seja possível somar dois números decimais.
-## 002.002.
+## 002.002. Conversor
 Escreva uma classe chamada "Conversor" com um método chamado "Converter" que recebe um valor em dólares e retorna o equivalente em reais. Sobrecarregue o método "Converter" para que também seja possível converter de reais para dólares.
-## 002.003.
+## 002.003. xx
 Crie uma classe chamada "Matematica" com um método chamado "Calcular" que recebe um array de inteiros e retorna a soma de todos os elementos do array. Sobrecarregue o método "Calcular" para que também seja possível calcular a média dos valores presentes no array.
-## 002.004.
+## 002.004.                                     xxxxxxxxxxxxxxxxxxxxxxxxxxxxFazerfazerfazer
 Escreva uma classe chamada "ManipuladorTexto" com um método chamado "Inverter" que recebe uma string e retorna a mesma string invertida. Sobrecarregue o método "Inverter" para que também seja possível inverter um array de caracteres.
 ## 002.005.
 Crie uma classe chamada "CalculadoraGeometrica" com um método chamado "CalcularArea" que recebe as medidas de um retângulo (largura e altura) e retorna a área do retângulo. Sobrecarregue o método "CalcularArea" para que também seja possível calcular a área de um círculo (raio) e de um triângulo (base e altura).
