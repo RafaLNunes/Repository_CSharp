@@ -8,7 +8,7 @@ Escreva uma classe chamada "ContaBancaria" com as propriedades "Saldo" e "Limite
 Crie uma classe chamada "Livro" com as propriedades "Titulo", "Autor" e "AnoPublicacao". Implemente uma propriedade chamada "Edicao" que permite ler e redefinir o número da edição do livro.
 # 001.005. Circulo
 Crie uma classe chamada "Circulo" com a propriedade "Raio". Implemente uma propriedade chamada "Diametro" que calcula e retorna o diâmetro do círculo (2 * Raio).
-# 001.006.
+# 001.006. Aluno
 Escreva uma classe chamada "Aluno" com as propriedades "Nome" e "Notas" (um array de double). Implemente uma propriedade chamada "Media" que calcula a média das notas do aluno.
 # 001.007.
 Crie uma classe chamada "Carro" com as propriedades "Marca" e "Modelo". Implemente uma propriedade chamada "Descricao" que concatene a marca e o modelo em uma única string.
