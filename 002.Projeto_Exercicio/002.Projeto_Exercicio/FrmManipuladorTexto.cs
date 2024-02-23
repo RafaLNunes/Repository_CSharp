@@ -10,25 +10,19 @@ using System.Windows.Forms;
 
 namespace _002.Projeto_Exercicio
 {
-    public partial class FrmConversor : Form
+    public partial class FrmManipuladorTexto : Form
     {
-        clconversor cnv = new clconversor();
-
-        public FrmConversor()
+        public FrmManipuladorTexto()
         {
             InitializeComponent();
         }
 
-        private void FrmConversor_Load(object sender, EventArgs e)
+        private void FrmManipuladorTexto_Load(object sender, EventArgs e)
         {
             home hm = new home();
             hm.vemhome();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            textDr.Text = cnv.Converter(textDv).ToString();
-            cnv.Converter(textRv, textRr);
+            clmanipuladorTexto clmt = new clmanipuladorTexto();
+            MessageBox.Show($"{clmt.Inverter()}");
         }
     }
 }

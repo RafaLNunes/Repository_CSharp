@@ -137,7 +137,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(844, 481);
             Controls.Add(label6);
             Controls.Add(label5);
             Controls.Add(label4);
@@ -150,6 +150,7 @@
             Controls.Add(textDv);
             Controls.Add(button1);
             Name = "FrmConversor";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmConversor";
             Load += FrmConversor_Load;
             ResumeLayout(false);
