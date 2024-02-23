@@ -12,7 +12,7 @@ Crie uma classe chamada "Circulo" com a propriedade "Raio". Implemente uma propr
 Escreva uma classe chamada "Aluno" com as propriedades "Nome" e "Notas" (um array de double). Implemente uma propriedade chamada "Media" que calcula a média das notas do aluno.
 # 001.007. Carro
 Crie uma classe chamada "Carro" com as propriedades "Marca" e "Modelo". Implemente uma propriedade chamada "Descricao" que concatene a marca e o modelo em uma única string.
-# 001.008.
+# 001.008. Triangulo
 Escreva uma classe chamada "Triangulo" com as propriedades "LadoA", "LadoB" e "LadoC". Implemente uma propriedade chamada "Perimetro" que calcula e retorna o perímetro do triângulo (LadoA + LadoB + LadoC).
 # 001.009.
 Crie uma classe chamada "Produto" com as propriedades "Nome", "Preco" e "Desconto". Implemente uma propriedade chamada "PrecoComDesconto" que calcula e retorna o preço do produto com desconto aplicado.
