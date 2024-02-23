@@ -107,7 +107,8 @@ namespace _002.Projeto_Exercicio
             Triangulo.Click += TrianguloToolStringMenuItem_Click;
             Produto.Click += ProdutoToolStringMenuItem_Click;
             Funcionário.Click += FuncionárioToolStringMenuItem_Click;
-
+            Calculadora.Click += CalculadoraToolStringMenuItem_Click;
+            Conversor.Click += ConversorToolStringMenuItem_Click;
 
             return menu;
         }
@@ -166,6 +167,18 @@ namespace _002.Projeto_Exercicio
         {
             Frmfuncionario func = new Frmfuncionario();
             func.ShowDialog();
+        }
+
+        private void CalculadoraToolStringMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCalculadora calc = new FrmCalculadora();
+            calc.ShowDialog();
+        }
+
+        private void ConversorToolStringMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmConversor convt = new FrmConversor();
+            convt.ShowDialog();
         }
     }
 }

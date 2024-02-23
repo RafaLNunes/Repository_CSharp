@@ -48,3 +48,5 @@ C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Proj
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.Frmtriangulo.resources
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.Frmproduto.resources
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.Frmfuncionario.resources
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.FrmCalculadora.resources
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.FrmConversor.resources
