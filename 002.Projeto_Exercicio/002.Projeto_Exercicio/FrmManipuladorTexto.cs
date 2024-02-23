@@ -12,6 +12,8 @@ namespace _002.Projeto_Exercicio
 {
     public partial class FrmManipuladorTexto : Form
     {
+
+        clmanipuladorTexto clmt = new clmanipuladorTexto();
         public FrmManipuladorTexto()
         {
             InitializeComponent();
@@ -21,8 +23,16 @@ namespace _002.Projeto_Exercicio
         {
             home hm = new home();
             hm.vemhome();
-            clmanipuladorTexto clmt = new clmanipuladorTexto();
-            MessageBox.Show($"{clmt.Inverter()}");
+        }
+
+        private void EnterArray_Click(object sender, EventArgs e)
+        {
+            clmt.Inverter(textarray, 1);
+        }
+
+        private void EnterPadrao_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show($"{clmt.Inverter(textpadrao)}");
         }
     }
 }
