@@ -106,6 +106,7 @@ namespace _002.Projeto_Exercicio
             Carro.Click += CarroToolStringMenuItem_Click;
             Triangulo.Click += TrianguloToolStringMenuItem_Click;
             Produto.Click += ProdutoToolStringMenuItem_Click;
+            Funcionário.Click += FuncionárioToolStringMenuItem_Click;
 
 
             return menu;
@@ -160,6 +161,11 @@ namespace _002.Projeto_Exercicio
         {
             Frmproduto prod = new Frmproduto();
             prod.ShowDialog();
+        }
+        private void FuncionárioToolStringMenuItem_Click( Object sender, EventArgs e)
+        {
+            Frmfuncionario func = new Frmfuncionario();
+            func.ShowDialog();
         }
     }
 }
