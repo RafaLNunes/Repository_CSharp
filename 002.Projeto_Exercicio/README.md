@@ -24,9 +24,9 @@ Crie uma classe chamada "Calculadora" com um método chamado "Somar" que recebe 
 Escreva uma classe chamada "Conversor" com um método chamado "Converter" que recebe um valor em dólares e retorna o equivalente em reais. Sobrecarregue o método "Converter" para que também seja possível converter de reais para dólares.
 ## 002.003. Matematica
 Crie uma classe chamada "Matematica" com um método chamado "Calcular" que recebe um array de inteiros e retorna a soma de todos os elementos do array. Sobrecarregue o método "Calcular" para que também seja possível calcular a média dos valores presentes no array.
-## 002.005.
+## 002.005. CalculadoraGeometrica
 Crie uma classe chamada "CalculadoraGeometrica" com um método chamado "CalcularArea" que recebe as medidas de um retângulo (largura e altura) e retorna a área do retângulo. Sobrecarregue o método "CalcularArea" para que também seja possível calcular a área de um círculo (raio) e de um triângulo (base e altura).
-## 002.006.
+## 002.006. Comparador
 Escreva uma classe chamada "Comparador" com um método chamado "Maior" que recebe dois inteiros como parâmetros e retorna o maior deles. Sobrecarregue o método "Maior" para que também seja possível comparar dois números decimais e retornar o maior deles.
 ## 002.009.
 Crie uma classe chamada "ManipuladorLista" com um método chamado "RemoverElemento" que recebe uma lista de inteiros e um número como parâmetros, e remove todas as ocorrências desse número da lista. Sobrecarregue o método "RemoverElemento" para que também seja possível remover um elemento pelo índice.
