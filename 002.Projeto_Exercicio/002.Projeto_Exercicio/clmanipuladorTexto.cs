@@ -12,6 +12,7 @@ namespace _002.Projeto_Exercicio
         public string[] MyTextArr;
         public string revertMyTextPad = "";
         public string[] revertMyTextArr;
+        public Int32[] ContadorArr;
 
         public string Inverter(TextBox textBox)
         {
@@ -28,17 +29,26 @@ namespace _002.Projeto_Exercicio
 
             return revertMyTextPad;
         }
-        public String[] Inverter(TextBox textBox, Int32 rotand)
+      /*  public String[] Inverter(TextBox textBox, Int32 rotand)
         {
             String MyTextTemp = textBox.Text;
             MyTextArr = MyTextTemp.Split(";");
 
             revertMyTextArr = new String[MyTextArr.Length];
 
+
+                for (int i = 0; i < revertMyTextArr.Length; i++)
+                {
+                    revertMyTextArr[i] += MyTextArr[i];
+                }
+
             for (int i = 0; i < revertMyTextArr.Length; i++)
             {
-                revertMyTextArr[i] = MyTextArr[i];
+                ContadorArr[i] = new Int32[revertMyTextArr[i].Length];
+
             }
+
+
 
             for (int i = 0; i < revertMyTextArr.Length; i++)
             {
@@ -46,6 +56,6 @@ namespace _002.Projeto_Exercicio
             }
 
             return revertMyTextArr;
-        }
+        }*/
     }
 }
