@@ -7,6 +7,9 @@
     <Compile Update="frmCalculadoraGeometrica.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmComparador.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FrmConversor.cs">
       <SubType>Form</SubType>
     </Compile>
