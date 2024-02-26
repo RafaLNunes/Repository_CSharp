@@ -10,7 +10,7 @@ namespace _002.Projeto_Exercicio
     {
 
         public Int32 soma_Result = 0;
-        public Int32 media_result = 0;
+        public Double media_result = 0;
         public String numb_temp_soma;
         public String[] numb_temp_soma_arr;
         public int[] numb_arr_soma;
@@ -45,14 +45,21 @@ namespace _002.Projeto_Exercicio
             numb_temp_med = textBox.Text;
             numb_temp_med_arr = numb_temp_med.Split(";");
 
-            numb_arr_soma = new int[numb_temp_soma_arr.Length];
+            numb_arr_med = new Double[numb_temp_med_arr.Length];
 
-            for (int i = 0; i < numb_temp_soma_arr.Length; i++)
+            for (int i = 0; i < numb_temp_med_arr.Length; i++)
             {
                 numb_arr_med[i] = Convert.ToDouble(numb_temp_med_arr[i]);
             }
 
             //calcular a media
+
+            for(int i = 0; i < numb_arr_med.Length; i++)
+            {
+                media_result += numb_arr_med[i];
+            }
+
+            media_result /= numb_arr_med.Length;
 
             return media_result;
         }

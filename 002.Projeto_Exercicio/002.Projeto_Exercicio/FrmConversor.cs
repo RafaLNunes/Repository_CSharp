@@ -12,17 +12,19 @@ namespace _002.Projeto_Exercicio
 {
     public partial class FrmConversor : Form
     {
+
         clconversor cnv = new clconversor();
 
         public FrmConversor()
         {
             InitializeComponent();
+
         }
 
         private void FrmConversor_Load(object sender, EventArgs e)
         {
             home hm = new home();
-            hm.vemhome();
+            this.Controls.Add(hm.vemhome());
         }
 
         private void button1_Click(object sender, EventArgs e)

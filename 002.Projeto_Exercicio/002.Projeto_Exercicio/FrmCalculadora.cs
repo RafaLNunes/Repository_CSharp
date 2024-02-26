@@ -20,10 +20,7 @@ namespace _002.Projeto_Exercicio
         private void FrmCalculadora_Load(object sender, EventArgs e)
         {
             home hm = new home();
-            hm.vemhome();
-
-
-
+            this.Controls.Add(hm.vemhome());
         }
 
         private void button1_Click(object sender, EventArgs e)

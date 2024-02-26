@@ -30,7 +30,7 @@ namespace _002.Projeto_Exercicio
         private void Frmfuncionario_Load(object sender, EventArgs e)
         {
             home hm = new home();
-            hm.vemhome();
+            this.Controls.Add(hm.vemhome());
         }
     }
 }

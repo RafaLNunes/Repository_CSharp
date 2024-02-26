@@ -26,7 +26,7 @@ namespace _002.Projeto_Exercicio
             carro.concatenar();
 
             home hm = new home();
-            hm.vemhome();
+            this.Controls.Add(hm.vemhome());
 
         }
 

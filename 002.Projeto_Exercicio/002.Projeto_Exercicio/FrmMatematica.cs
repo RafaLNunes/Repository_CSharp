@@ -12,6 +12,7 @@ namespace _002.Projeto_Exercicio
 {
     public partial class FrmMatematica : Form
     {
+        clmatematica mat = new clmatematica();
         public FrmMatematica()
         {
             InitializeComponent();
@@ -19,18 +20,19 @@ namespace _002.Projeto_Exercicio
 
         private void FrmMatematica_Load(object sender, EventArgs e)
         {
-
+            home hm = new home();
+            this.Controls.Add(hm.vemhome());
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            clmatematica mat = new clmatematica();
-            MessageBox.Show($"O resultado da soma dos numeros apresentados: {mat.Calcular(textBox1)}");
+            
+            MessageBox.Show($"O resultado da soma dos números apresentados: {mat.Calcular(textBox1)}");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show($"O resultado da média dos números apresentados: {mat.Calcular(textBox1, 0)}");
         }
     }
 }

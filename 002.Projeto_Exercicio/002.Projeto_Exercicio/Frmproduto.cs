@@ -19,7 +19,8 @@ namespace _002.Projeto_Exercicio
 
         private void Frmproduto_Load(object sender, EventArgs e)
         {
-
+            home hm = new home();
+            this.Controls.Add(hm.vemhome());
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
