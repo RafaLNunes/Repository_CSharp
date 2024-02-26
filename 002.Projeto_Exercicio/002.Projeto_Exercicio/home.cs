@@ -113,6 +113,7 @@ namespace _002.Projeto_Exercicio
             Matematica.Click += MatematicaToolStringMenuItem_Click;
             CalcGeometrico.Click += CalcGeometricoToolStringMenuItem_Click;
             Comparador.Click += ComparadorToolStringMenuItem_Click;
+            ManipLista.Click += ManipListaToolStringMenuItem_Click;
 
             return menu;
         }
@@ -206,5 +207,13 @@ namespace _002.Projeto_Exercicio
             FrmComparador comp = new FrmComparador();
             comp.ShowDialog();
         }
+        private void ManipListaToolStringMenuItem_Click(Object sender, EventArgs e)
+        {
+            FrmManipuladorLista Frmml = new FrmManipuladorLista();
+            Frmml.ShowDialog();
+        }
+        
+
+        }
     }
-}
+

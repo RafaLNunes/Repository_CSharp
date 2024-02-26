@@ -16,6 +16,9 @@
     <Compile Update="Frmfuncionario.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmManipuladorLista.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="FrmManipuladorTexto.cs">
       <SubType>Form</SubType>
     </Compile>
