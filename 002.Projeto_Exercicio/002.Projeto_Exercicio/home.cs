@@ -111,6 +111,7 @@ namespace _002.Projeto_Exercicio
             Conversor.Click += ConversorToolStringMenuItem_Click;
             ManipTexto.Click += ManipTextoToolStringMenuItem_Click;
             Matematica.Click += MatematicaToolStringMenuItem_Click;
+            CalcGeometrico.Click += CalcGeometricoToolStringMenuItem_Click;
 
             return menu;
         }
@@ -193,6 +194,11 @@ namespace _002.Projeto_Exercicio
         {
             FrmMatematica mat = new FrmMatematica();
             mat.ShowDialog();
+        }
+        private void CalcGeometricoToolStringMenuItem_Click(Object sender, EventArgs e)
+        {
+            frmCalculadoraGeometrica clcg = new frmCalculadoraGeometrica();
+            clcg.ShowDialog();
         }
     }
 }
