@@ -10,9 +10,10 @@ namespace _002.Projeto_Exercicio
     {
         public Int32 Maior_int;
         public Double Maior_dec;
-        public Int32 Maior(Int32 numb1, Int32 numb2)
+        public Int32 Maior(TextBox textBox, TextBox textBox1)
         {
-
+            Int32 numb1 = Convert.ToInt32(textBox.Text);
+            Int32 numb2 = Convert.ToInt32(textBox1.Text);
 
             if (numb1 > numb2)
             {
@@ -25,8 +26,11 @@ namespace _002.Projeto_Exercicio
 
             return Maior_int;
         }
-        public Double Maior(Double numb1, Double numb2, Double vasco)
+        public Double Maior(TextBox textBox, TextBox textBox1, Double vasco)
         {
+            Double numb1 = Convert.ToDouble(textBox.Text);
+            Double numb2 = Convert.ToDouble(textBox1.Text);
+
             if (numb1 > numb2)
             {
                 Maior_dec = numb1;

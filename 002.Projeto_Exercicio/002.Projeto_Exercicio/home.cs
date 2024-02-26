@@ -40,8 +40,6 @@ namespace _002.Projeto_Exercicio
             Humano.DropDownItems.Add(Aluno);
             ToolStripMenuItem Funcionário = new ToolStripMenuItem("001.010.Funcionário");
             Humano.DropDownItems.Add(Funcionário);
-            ToolStripMenuItem Comprador = new ToolStripMenuItem("002.006.Comprador");
-            Humano.DropDownItems.Add(Comprador);
 
             ToolStripMenuItem Retangulo = new ToolStripMenuItem("001.002.Retângulo");
             Formas.DropDownItems.Add(Retangulo);
@@ -67,6 +65,8 @@ namespace _002.Projeto_Exercicio
             Calculos.DropDownItems.Add(Conversor);
             ToolStripMenuItem Matematica = new ToolStripMenuItem("002.003.Matemática");
             Calculos.DropDownItems.Add(Matematica);
+            ToolStripMenuItem Comparador = new ToolStripMenuItem("002.006.Comparador");
+            Calculos.DropDownItems.Add(Comparador);
 
             ToolStripMenuItem Livro = new ToolStripMenuItem("001.004.Livro");
             Objetos.DropDownItems.Add(Livro);
@@ -112,6 +112,7 @@ namespace _002.Projeto_Exercicio
             ManipTexto.Click += ManipTextoToolStringMenuItem_Click;
             Matematica.Click += MatematicaToolStringMenuItem_Click;
             CalcGeometrico.Click += CalcGeometricoToolStringMenuItem_Click;
+            Comparador.Click += ComparadorToolStringMenuItem_Click;
 
             return menu;
         }
@@ -199,6 +200,11 @@ namespace _002.Projeto_Exercicio
         {
             frmCalculadoraGeometrica clcg = new frmCalculadoraGeometrica();
             clcg.ShowDialog();
+        }
+        private void ComparadorToolStringMenuItem_Click( Object sender, EventArgs e)
+        {
+            FrmComparador comp = new FrmComparador();
+            comp.ShowDialog();
         }
     }
 }

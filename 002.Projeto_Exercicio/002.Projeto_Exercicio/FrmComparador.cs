@@ -27,12 +27,12 @@ namespace _002.Projeto_Exercicio
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show($"O Maior número inteiro é: {comp.Maior(textBox1, textBox2)}");
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            comp.Maior(textBox3, textBox4, 0);
+            MessageBox.Show($"O Maior número decimal é: {comp.Maior(textBox3, textBox4, 0)}");
         }
     }
 }
