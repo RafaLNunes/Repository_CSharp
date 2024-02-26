@@ -16,5 +16,10 @@ namespace _002.Projeto_Exercicio
         {
             InitializeComponent();
         }
+
+        private void FrmMatematica_Load(object sender, EventArgs e)
+        {
+                
+        }
     }
 }

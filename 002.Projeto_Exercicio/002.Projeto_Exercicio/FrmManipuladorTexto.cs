@@ -27,7 +27,7 @@ namespace _002.Projeto_Exercicio
 
         private void EnterArray_Click(object sender, EventArgs e)
         {
-            clmt.Inverter(textarray, 1);
+            //clmt.Inverter(textarray, 1);
         }
 
         private void EnterPadrao_Click(object sender, EventArgs e)
