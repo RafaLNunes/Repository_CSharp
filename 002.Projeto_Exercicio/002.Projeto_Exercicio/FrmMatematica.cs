@@ -19,7 +19,18 @@ namespace _002.Projeto_Exercicio
 
         private void FrmMatematica_Load(object sender, EventArgs e)
         {
-                
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            clmatematica mat = new clmatematica();
+            MessageBox.Show($"O resultado da soma dos numeros apresentados: {mat.Calcular(textBox1)}");
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

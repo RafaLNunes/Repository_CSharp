@@ -110,6 +110,7 @@ namespace _002.Projeto_Exercicio
             Calculadora.Click += CalculadoraToolStringMenuItem_Click;
             Conversor.Click += ConversorToolStringMenuItem_Click;
             ManipTexto.Click += ManipTextoToolStringMenuItem_Click;
+            Matematica.Click += MatematicaToolStringMenuItem_Click;
 
             return menu;
         }
@@ -186,6 +187,12 @@ namespace _002.Projeto_Exercicio
         {
             FrmManipuladorTexto frmt = new FrmManipuladorTexto();
             frmt.ShowDialog();
+        }
+
+        private void MatematicaToolStringMenuItem_Click( object sender, EventArgs e)
+        {
+            FrmMatematica mat = new FrmMatematica();
+            mat.ShowDialog();
         }
     }
 }

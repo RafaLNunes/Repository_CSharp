@@ -10,31 +10,51 @@ namespace _002.Projeto_Exercicio
     {
 
         public Int32 soma_Result = 0;
-        public String numb_temp;
-        public String[] numb_temparr;
-        public Int32[][] numb_arr;
-        public Int32 Calcular(TextBox textBox, Int32 a)
-        {
-            numb_temp = textBox.Text;
-            numb_temparr = numb_temp.Split(";");
+        public Int32 media_result = 0;
+        public String numb_temp_soma;
+        public String[] numb_temp_soma_arr;
+        public int[] numb_arr_soma;
 
-            for (int i = 0; i < numb_temparr.Length; i++)
+        public String numb_temp_med;
+        public String[] numb_temp_med_arr;
+        public Double[] numb_arr_med;
+        public Int32 Calcular(TextBox textBox)
+        {
+            numb_temp_soma = textBox.Text;
+            numb_temp_soma_arr = numb_temp_soma.Split(";");
+
+            numb_arr_soma = new int[numb_temp_soma_arr.Length];
+
+            for (int i = 0; i < numb_temp_soma_arr.Length; i++)
             {
-                for (int j = 0; j < numb_temparr[i].Length; j++)
-                {
-                    numb_arr[i][j] = Convert.ToInt32(numb_temparr[i][j]);
-                }
+                numb_arr_soma[i] = Convert.ToInt32(numb_temp_soma_arr[i]);
             }
 
-            for (int i = 0; i < numb_arr.Length; i++)
+            for (int i = 0; i < numb_arr_soma.Length; i++)
             {
-                for(int j = 0; j < numb_arr[i].Length; j++)
-                {
-                    soma_Result += numb_arr[i][j];
-                }
+               
+                    soma_Result += numb_arr_soma[i];
+              
             }
 
             return soma_Result;
+        }
+
+        public Double Calcular(TextBox textBox, int a)
+        {
+            numb_temp_med = textBox.Text;
+            numb_temp_med_arr = numb_temp_med.Split(";");
+
+            numb_arr_soma = new int[numb_temp_soma_arr.Length];
+
+            for (int i = 0; i < numb_temp_soma_arr.Length; i++)
+            {
+                numb_arr_med[i] = Convert.ToDouble(numb_temp_med_arr[i]);
+            }
+
+            //calcular a media
+
+            return media_result;
         }
     }
 }
