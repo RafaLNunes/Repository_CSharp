@@ -1,6 +1,6 @@
 ﻿namespace _003.Projeto_Exercicio
 {
-    partial class Form1
+    partial class FrmDivisao
     {
         /// <summary>
         ///  Required designer variable.

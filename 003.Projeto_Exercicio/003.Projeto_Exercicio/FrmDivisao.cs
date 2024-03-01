@@ -1,14 +1,17 @@
 namespace _003.Projeto_Exercicio
 {
-    public partial class Form1 : Form
+    public partial class FrmDivisao : Form
     {
-        public Form1()
+        public FrmDivisao()
         {
             InitializeComponent();
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            home hm = new home();
+            this.Controls.Add(hm.stayhome());
+            
             label3.Visible = false;
 
         }
