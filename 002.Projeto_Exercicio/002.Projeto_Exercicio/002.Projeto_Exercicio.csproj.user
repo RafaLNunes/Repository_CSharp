@@ -34,6 +34,9 @@
     <Compile Update="FrmTamanhoCamiseta.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="FrmTipoVeiculo.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Frmtriangulo.cs">
       <SubType>Form</SubType>
     </Compile>

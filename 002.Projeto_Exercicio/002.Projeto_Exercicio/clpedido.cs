@@ -17,12 +17,22 @@ namespace _002.Projeto_Exercicio
             Entregue = 3,
         }
 
-        public String Status()
+        public String Status(TextBox textBox)
+            
         {
+            String stat = textBox.Text;
 
-
+            for (int i = 0; i <= 3; i++)
+            {
+                if (Enum.IsDefined(typeof(StatusPedido), i))
+                {
+                    StatusPedido status = (StatusPedido)i;
+                    MessageBox.Show($"O pedido: {stat}\nStatus do Pedido:{status}");
+                }
+            }
 
             return status_do_Pedido;
+            
         }
 
     }

@@ -65,3 +65,5 @@ C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Proj
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.FrmManipuladorLista.resources
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.FrmTamanhoCamiseta.resources
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.Properties.Resources.resources
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.FrmPedido.resources
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\002.Projeto_Exercicio\002.Projeto_Exercicio\obj\Debug\net6.0-windows\_002.Projeto_Exercicio.FrmTipoVeiculo.resources

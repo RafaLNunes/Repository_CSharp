@@ -116,6 +116,7 @@ namespace _002.Projeto_Exercicio
             ManipLista.Click += ManipListaToolStringMenuItem_Click;
             TamCam.Click += TamCamToolStringMenuItem_Click;
             Pedido.Click += PedidoToolStringMenuItem_Click;
+            TipoVeiculo.Click += TipoVeiculoToolStringMenuItem_Click;
 
             return menu;
         }
@@ -223,6 +224,11 @@ namespace _002.Projeto_Exercicio
         {
             FrmPedido ped = new FrmPedido();
             ped.ShowDialog();
+        }
+        private void TipoVeiculoToolStringMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmTipoVeiculo tpvic = new FrmTipoVeiculo();
+            tpvic.ShowDialog();
         }
     }
 }
