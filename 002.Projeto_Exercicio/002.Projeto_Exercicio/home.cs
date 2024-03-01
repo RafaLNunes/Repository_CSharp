@@ -114,6 +114,8 @@ namespace _002.Projeto_Exercicio
             CalcGeometrico.Click += CalcGeometricoToolStringMenuItem_Click;
             Comparador.Click += ComparadorToolStringMenuItem_Click;
             ManipLista.Click += ManipListaToolStringMenuItem_Click;
+            TamCam.Click += TamCamToolStringMenuItem_Click;
+            Pedido.Click += PedidoToolStringMenuItem_Click;
 
             return menu;
         }
@@ -123,7 +125,7 @@ namespace _002.Projeto_Exercicio
             Frmpessoa pessoa = new Frmpessoa();
             pessoa.ShowDialog();
         }
-    
+
         private void RetanguloToolStringMenuItem_Click(Object sender, EventArgs e)
         {
             FrmRetangulo retangulo = new FrmRetangulo();
@@ -142,22 +144,22 @@ namespace _002.Projeto_Exercicio
         }
         private void CirculoToolStringMenuItem_Click(object sender, EventArgs e)
         {
-            frmcirculo circulo = new frmcirculo(); 
+            frmcirculo circulo = new frmcirculo();
             circulo.ShowDialog();
         }
-    
-        private void AlunoloToolStringMenuItem_Click(object sender, EventArgs e )
+
+        private void AlunoloToolStringMenuItem_Click(object sender, EventArgs e)
         {
             FrmAluno aluno = new FrmAluno();
             aluno.ShowDialog();
         }
 
-        private void CarroToolStringMenuItem_Click(object sender, EventArgs e) 
+        private void CarroToolStringMenuItem_Click(object sender, EventArgs e)
         {
             Frmcarro carro = new Frmcarro();
             carro.ShowDialog();
         }
-        private void TrianguloToolStringMenuItem_Click( object sender, EventArgs e)
+        private void TrianguloToolStringMenuItem_Click(object sender, EventArgs e)
         {
             Frmtriangulo tri = new Frmtriangulo();
             tri.ShowDialog();
@@ -168,7 +170,7 @@ namespace _002.Projeto_Exercicio
             Frmproduto prod = new Frmproduto();
             prod.ShowDialog();
         }
-        private void FuncionárioToolStringMenuItem_Click( Object sender, EventArgs e)
+        private void FuncionárioToolStringMenuItem_Click(Object sender, EventArgs e)
         {
             Frmfuncionario func = new Frmfuncionario();
             func.ShowDialog();
@@ -192,7 +194,7 @@ namespace _002.Projeto_Exercicio
             frmt.ShowDialog();
         }
 
-        private void MatematicaToolStringMenuItem_Click( object sender, EventArgs e)
+        private void MatematicaToolStringMenuItem_Click(object sender, EventArgs e)
         {
             FrmMatematica mat = new FrmMatematica();
             mat.ShowDialog();
@@ -202,7 +204,7 @@ namespace _002.Projeto_Exercicio
             frmCalculadoraGeometrica clcg = new frmCalculadoraGeometrica();
             clcg.ShowDialog();
         }
-        private void ComparadorToolStringMenuItem_Click( Object sender, EventArgs e)
+        private void ComparadorToolStringMenuItem_Click(Object sender, EventArgs e)
         {
             FrmComparador comp = new FrmComparador();
             comp.ShowDialog();
@@ -212,8 +214,16 @@ namespace _002.Projeto_Exercicio
             FrmManipuladorLista Frmml = new FrmManipuladorLista();
             Frmml.ShowDialog();
         }
-        
+        private void TamCamToolStringMenuItem_Click(Object sender, EventArgs e){
+            FrmTamanhoCamiseta tc = new FrmTamanhoCamiseta();
+            tc.ShowDialog();
+        }
 
+        private void PedidoToolStringMenuItem_Click(Object sender, EventArgs e)
+        {
+            FrmPedido ped = new FrmPedido();
+            ped.ShowDialog();
         }
     }
+}
 

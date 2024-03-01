@@ -10,24 +10,20 @@ using System.Windows.Forms;
 
 namespace _002.Projeto_Exercicio
 {
-    public partial class FrmTamanhoCamiseta : Form
+    public partial class FrmPedido : Form
     {
-
-        cltamanhocamiseta cltc = new cltamanhocamiseta();
-        public FrmTamanhoCamiseta()
+        public FrmPedido()
         {
             InitializeComponent();
         }
 
-        private void FrmTamanhoCamiseta_Load(object sender, EventArgs e)
+        private void FrmPedido_Load(object sender, EventArgs e)
         {
             home hm = new home();
             this.Controls.Add(hm.vemhome());
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show(cltc.tamanho_camiseta(textAlt, textLarg));
-        }
+
+
     }
 }
