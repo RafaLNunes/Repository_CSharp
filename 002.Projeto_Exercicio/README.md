@@ -28,11 +28,11 @@ Crie uma classe chamada "Matematica" com um método chamado "Calcular" que receb
 Crie uma classe chamada "CalculadoraGeometrica" com um método chamado "CalcularArea" que recebe as medidas de um retângulo (largura e altura) e retorna a área do retângulo. Sobrecarregue o método "CalcularArea" para que também seja possível calcular a área de um círculo (raio) e de um triângulo (base e altura).
 ## 002.006. Comparador
 Escreva uma classe chamada "Comparador" com um método chamado "Maior" que recebe dois inteiros como parâmetros e retorna o maior deles. Sobrecarregue o método "Maior" para que também seja possível comparar dois números decimais e retornar o maior deles.
-## 002.009.
+## 002.009. ManipuladorLista
 Crie uma classe chamada "ManipuladorLista" com um método chamado "RemoverElemento" que recebe uma lista de inteiros e um número como parâmetros, e remove todas as ocorrências desse número da lista. Sobrecarregue o método "RemoverElemento" para que também seja possível remover um elemento pelo índice.
-### 003.005.
+### 003.005. TamanhoCamiseta
 Crie uma enumeração chamada "TamanhoCamiseta" com os valores "Pequeno", "Médio" e "Grande". Implemente um método que receba um valor do tipo "TamanhoCamiseta" e exiba uma mensagem correspondente informando o tamanho da camiseta.
-### 003.006.
+### 003.006. Pedido
 Escreva uma classe chamada "Pedido" com uma propriedade chamada "Status" do tipo enumeração "StatusPedido" com os valores "Novo", "Processando", "Enviado" e "Entregue". Implemente métodos que permitam atualizar o status do pedido e exibir o status atual.
-### 003.009.
+### 003.009. TipoVeiculo
 Crie uma enumeração chamada "TipoVeiculo" com os valores "Carro", "Moto" e "Caminhao". Implemente um método que receba um valor do tipo "TipoVeiculo" e exiba uma mensagem correspondente informando o tipo de veículo.
