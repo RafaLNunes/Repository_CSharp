@@ -3,7 +3,6 @@ C:\Users\aluno\Documents\GitHub\Repository_CSharp\003.Projeto_Exercicio\003.Proj
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\003.Projeto_Exercicio\003.Projeto_Exercicio\bin\Debug\net6.0-windows\003.Projeto_Exercicio.runtimeconfig.json
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\003.Projeto_Exercicio\003.Projeto_Exercicio\bin\Debug\net6.0-windows\003.Projeto_Exercicio.dll
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\003.Projeto_Exercicio\003.Projeto_Exercicio\bin\Debug\net6.0-windows\003.Projeto_Exercicio.pdb
-C:\Users\aluno\Documents\GitHub\Repository_CSharp\003.Projeto_Exercicio\003.Projeto_Exercicio\obj\Debug\net6.0-windows\_003.Projeto_Exercicio.Form1.resources
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\003.Projeto_Exercicio\003.Projeto_Exercicio\obj\Debug\net6.0-windows\003.Projeto_Exercicio.csproj.GenerateResource.cache
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\003.Projeto_Exercicio\003.Projeto_Exercicio\obj\Debug\net6.0-windows\003.Projeto_Exercicio.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\003.Projeto_Exercicio\003.Projeto_Exercicio\obj\Debug\net6.0-windows\003.Projeto_Exercicio.AssemblyInfoInputs.cache
@@ -15,3 +14,5 @@ C:\Users\aluno\Documents\GitHub\Repository_CSharp\003.Projeto_Exercicio\003.Proj
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\003.Projeto_Exercicio\003.Projeto_Exercicio\obj\Debug\net6.0-windows\003.Projeto_Exercicio.pdb
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\003.Projeto_Exercicio\003.Projeto_Exercicio\obj\Debug\net6.0-windows\003.Projeto_Exercicio.genruntimeconfig.cache
 C:\Users\aluno\Documents\GitHub\Repository_CSharp\003.Projeto_Exercicio\003.Projeto_Exercicio\obj\Debug\net6.0-windows\ref\003.Projeto_Exercicio.dll
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\003.Projeto_Exercicio\003.Projeto_Exercicio\obj\Debug\net6.0-windows\_003.Projeto_Exercicio.FrmCalculadora.resources
+C:\Users\aluno\Documents\GitHub\Repository_CSharp\003.Projeto_Exercicio\003.Projeto_Exercicio\obj\Debug\net6.0-windows\_003.Projeto_Exercicio.FrmDivisao.resources

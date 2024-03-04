@@ -47,6 +47,7 @@
             button3.TabIndex = 17;
             button3.Text = "Divisão";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -56,6 +57,7 @@
             button2.TabIndex = 16;
             button2.Text = "Subtração";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -65,6 +67,7 @@
             button1.TabIndex = 15;
             button1.Text = "Soma";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // Numb2
             // 
@@ -95,7 +98,7 @@
             // 
             result.AutoSize = true;
             result.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point);
-            result.Location = new Point(370, 296);
+            result.Location = new Point(351, 274);
             result.Name = "result";
             result.Size = new Size(83, 32);
             result.TabIndex = 11;
@@ -116,12 +119,13 @@
             Enter.TabIndex = 9;
             Enter.Text = "Multiplicação ";
             Enter.UseVisualStyleBackColor = true;
+            Enter.Click += Enter_Click;
             // 
             // FrmCalculadora
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(844, 481);
             Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(button1);
@@ -132,6 +136,7 @@
             Controls.Add(textBox1);
             Controls.Add(Enter);
             Name = "FrmCalculadora";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "FrmCalculadora";
             Load += FrmCalculadora_Load;
             ResumeLayout(false);

@@ -15,6 +15,7 @@ namespace _003.Projeto_Exercicio
         public FrmCalculadora()
         {
             InitializeComponent();
+            result.Text = "";
         }
 
         private void FrmCalculadora_Load(object sender, EventArgs e)
@@ -25,6 +26,28 @@ namespace _003.Projeto_Exercicio
             result.Visible = false;
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            clcalculadora clcacl = new clcalculadora();
+            MessageBox.Show("O resultado da Divisão: " + clcacl.Calc(textBox1, textBox2, result, 0, 0));
+        }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            clcalculadora clcacl = new clcalculadora();
+            MessageBox.Show("O resultado da Soma: " + clcacl.Calc(textBox1, textBox2, result));
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            clcalculadora clcacl = new clcalculadora();
+            MessageBox.Show("O resultado da Subtração: " + clcacl.Calc(textBox1, textBox2, result, 0));
+        }
+
+        private void Enter_Click(object sender, EventArgs e)
+        {
+            clcalculadora clcacl = new clcalculadora();
+            MessageBox.Show("O resultado da Multiplicação: " + clcacl.Calc(textBox1, textBox2, result, 0, 0, 0));
+        }
     }
 }
