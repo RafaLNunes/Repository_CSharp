@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C20AD0E6-E849-4675-8A77-87E2E1859C30}|001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.projeto_exercicio\\frmaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C20AD0E6-E849-4675-8A77-87E2E1859C30}|001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj|solutionrelative:001.projeto_exercicio\\frmaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C20AD0E6-E849-4675-8A77-87E2E1859C30}|001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj|c:\\users\\aluno\\documents\\github\\repository_csharp\\001.projeto_exercicio\\001.projeto_exercicio\\frmbhaskara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C20AD0E6-E849-4675-8A77-87E2E1859C30}|001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj|solutionrelative:001.projeto_exercicio\\frmbhaskara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C20AD0E6-E849-4675-8A77-87E2E1859C30}|001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.projeto_exercicio\\frmbhaskara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C20AD0E6-E849-4675-8A77-87E2E1859C30}|001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj|solutionrelative:001.projeto_exercicio\\frmbhaskara.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C20AD0E6-E849-4675-8A77-87E2E1859C30}|001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.projeto_exercicio\\frmprestacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C20AD0E6-E849-4675-8A77-87E2E1859C30}|001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj|solutionrelative:001.projeto_exercicio\\frmprestacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C20AD0E6-E849-4675-8A77-87E2E1859C30}|001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.projeto_exercicio\\frmcentral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C20AD0E6-E849-4675-8A77-87E2E1859C30}|001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj|solutionrelative:001.projeto_exercicio\\frmcentral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C20AD0E6-E849-4675-8A77-87E2E1859C30}|001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.projeto_exercicio\\frmaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C20AD0E6-E849-4675-8A77-87E2E1859C30}|001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj|solutionrelative:001.projeto_exercicio\\frmaluno.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C20AD0E6-E849-4675-8A77-87E2E1859C30}|001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.projeto_exercicio\\frmprestacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C20AD0E6-E849-4675-8A77-87E2E1859C30}|001.Projeto_Exercicio\\001.Projeto_Exercicio.csproj|solutionrelative:001.projeto_exercicio\\frmprestacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmAluno.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\FrmAluno.cs",
+              "RelativeDocumentMoniker": "001.Projeto_Exercicio\\FrmAluno.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\FrmAluno.cs",
+              "RelativeToolTip": "001.Projeto_Exercicio\\FrmAluno.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAAAIsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T13:04:29.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmBhaskara.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\FrmBhaskara.cs",
+              "RelativeDocumentMoniker": "001.Projeto_Exercicio\\FrmBhaskara.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\FrmBhaskara.cs",
+              "RelativeToolTip": "001.Projeto_Exercicio\\FrmBhaskara.cs",
+              "ViewState": "AQIAAGEAAAAAAAAAAAAAAJoAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T11:57:00.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrmBhaskara.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\FrmBhaskara.cs",
+              "RelativeDocumentMoniker": "001.Projeto_Exercicio\\FrmBhaskara.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\FrmBhaskara.cs [Projeto]",
+              "RelativeToolTip": "001.Projeto_Exercicio\\FrmBhaskara.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T11:55:30.339Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FrmPrestacao.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\FrmPrestacao.cs",
+              "RelativeDocumentMoniker": "001.Projeto_Exercicio\\FrmPrestacao.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\FrmPrestacao.cs",
+              "RelativeToolTip": "001.Projeto_Exercicio\\FrmPrestacao.cs",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAkwFcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T11:56:46.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmPrestacao.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\FrmPrestacao.cs",
+              "RelativeDocumentMoniker": "001.Projeto_Exercicio\\FrmPrestacao.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\FrmPrestacao.cs [Projeto]",
+              "RelativeToolTip": "001.Projeto_Exercicio\\FrmPrestacao.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T11:56:00.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmCentral.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\FrmCentral.cs",
+              "RelativeDocumentMoniker": "001.Projeto_Exercicio\\FrmCentral.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\FrmCentral.cs [Projeto]",
+              "RelativeToolTip": "001.Projeto_Exercicio\\FrmCentral.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T11:55:37.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmAluno.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\FrmAluno.cs",
+              "RelativeDocumentMoniker": "001.Projeto_Exercicio\\FrmAluno.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\Repository_CSharp\\001.Projeto_Exercicio\\001.Projeto_Exercicio\\FrmAluno.cs [Projeto]",
+              "RelativeToolTip": "001.Projeto_Exercicio\\FrmAluno.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-16T11:55:26.143Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
